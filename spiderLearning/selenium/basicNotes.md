@@ -170,3 +170,13 @@ browser.get("https://www.taobao.com")
 time,sleep(1)
 browser.switch_to_window(browser.window_handles[0])
 ```
+
+# 谷歌无头模式
+
+谷歌支持开启无头模式
+
+```
+chrome_options=webdriver.ChromeOptions()
+chrome_options.add_argument("--headless")
+browser=webdriver.Chrome(chrome_options=chrome_options)
+```

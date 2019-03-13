@@ -3,5 +3,6 @@ html=pq(url="https://www.taobao.com")
 lis=html("li")
 select=lis.find(".shell-price")
 divs=select.items()
-# print(divs.attr("class"))
-print(type(divs))
+print(divs)
+for i in divs:
+    print(i)
