@@ -2,40 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e747d772-13d5-4448-bc2a-b026b4b2030d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ajax/codes/topicToday.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/notes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cssSelector/testScrapy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy/animeImage/animeImage/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy/animeImage/animeImage/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy/animeImage/animeImage/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy/animeImage/animeImage/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy/animeImage/animeImage/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy/animeImage/animeImage/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy/animeImage/animeImage/spiders/images.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy/animeImage/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy/basicScrapy.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy/basicScrapy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/spiders/LoginTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy/jufeLogin/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy/scrapydownloadertest/scrapydownloadertest/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy/scrapydownloadertest/scrapydownloadertest/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy/scrapydownloadertest/scrapydownloadertest/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy/scrapydownloadertest/scrapydownloadertest/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy/scrapydownloadertest/scrapydownloadertest/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy/scrapydownloadertest/scrapydownloadertest/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy/scrapydownloadertest/scrapydownloadertest/spiders/httpbin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/code/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/spiderLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spiderLearning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cssSelector/basicCSS.py" beforeDir="false" afterPath="$PROJECT_DIR$/cssSelector/basicCSS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/basicNotes.md" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/basicNotes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/code/JUFE.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/code/JUFE.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/spiders/LoginTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/spiders/LoginTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapy/jufeLogin/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy/jufeLogin/test.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,106 +17,110 @@
     <session id="-266871579">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="11249" />
+          <entry key="json" value="1" />
+          <entry key="py" value="12837" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="11249" />
+          <entry key="JSON" value="1" />
+          <entry key="Python" value="12837" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cfg" value="4" />
-          <entry key="json" value="8" />
+          <entry key="cfg" value="9" />
+          <entry key="json" value="16" />
           <entry key="log" value="2" />
           <entry key="md" value="4" />
-          <entry key="py" value="67" />
+          <entry key="py" value="94" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="8" />
+          <entry key="JSON" value="16" />
           <entry key="Markdown" value="4" />
-          <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="67" />
+          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="Python" value="94" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy/animeImage/animeImage/spiders/images.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/spiders/LoginTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+            <state relative-caret-position="303">
+              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
-                <marker date="1552480636415" expanded="true" signature="303:606" ph="..." />
+                <marker date="1552714430652" expanded="true" signature="201:202" ph="..." />
+                <marker date="1552714430652" expanded="true" signature="202:207" ph="..." />
+                <marker date="1552714430652" expanded="true" signature="232:241" ph="..." />
+                <marker date="1552714430652" expanded="true" signature="427:926" ph="..." />
+                <marker date="1552714430652" expanded="true" signature="1036:1045" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy/animeImage/animeImage/middlewares.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="65" column="29" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
-              <folding>
-                <element signature="e#168#194#0" expanded="true" />
-                <marker date="1552480223831" expanded="true" signature="1930:1935" ph="..." />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/scrapy/jufeLogin/scrapy.cfg">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy/animeImage/animeImage/items.py">
+        <entry file="file://$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/items.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
               <folding>
-                <marker date="1552477631446" expanded="true" signature="202:207" ph="..." />
-                <marker date="1552477631446" expanded="true" signature="202:255" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scrapy/animeImage/animeImage/pipelines.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-              <folding>
-                <element signature="e#193#219#0" expanded="true" />
-                <marker date="1552481142110" expanded="true" signature="347:349" ph="..." />
-                <marker date="1552481142110" expanded="true" signature="507:652" ph="..." />
+                <marker date="1552465698293" expanded="true" signature="197:222" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy/animeImage/animeImage/settings.py">
+        <entry file="file://$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/middlewares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="72" selection-start-line="72" selection-end-line="72" />
+            <state relative-caret-position="473">
+              <caret line="65" column="42" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
+              <folding>
+                <element signature="e#168#194#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-154">
+              <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+              <folding>
+                <element signature="e#24#34#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -164,6 +138,9 @@
     <findStrings>
       <find>robo</find>
       <find>DOWNLOADER</find>
+      <find>COOKIES_ENABLED</find>
+      <find>HTTPERROR_ALLOWED_CODES</find>
+      <find>REDIRECT_ENABLED</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -191,19 +168,21 @@
         <option value="$PROJECT_DIR$/scrapy/images360/images360/settings.py" />
         <option value="$PROJECT_DIR$/scrapy/images360/images360/spiders/images.py" />
         <option value="$PROJECT_DIR$/scrapy/images360/images360/items.py" />
-        <option value="$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/settings.py" />
         <option value="$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/items.py" />
-        <option value="$PROJECT_DIR$/scrapy/jufeLogin/test.json" />
-        <option value="$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/spiders/LoginTest.py" />
         <option value="$PROJECT_DIR$/scrapy/animeImage/animeImage/items.py" />
         <option value="$PROJECT_DIR$/scrapy/animeImage/animeImage/middlewares.py" />
         <option value="$PROJECT_DIR$/scrapy/animeImage/animeImage/spiders/images.py" />
         <option value="$PROJECT_DIR$/scrapy/animeImage/animeImage/settings.py" />
         <option value="$PROJECT_DIR$/scrapy/animeImage/animeImage/pipelines.py" />
+        <option value="$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/middlewares.py" />
+        <option value="$PROJECT_DIR$/scrapy/jufeLogin/test.json" />
+        <option value="$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/spiders/__init__.py" />
+        <option value="$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/settings.py" />
+        <option value="$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/spiders/LoginTest.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="662" />
     <option name="y" value="171" />
     <option name="width" value="697" />
@@ -231,21 +210,21 @@
               <item name="spiderLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="spiderLearning" type="462c0819:PsiDirectoryNode" />
               <item name="scrapy" type="462c0819:PsiDirectoryNode" />
-              <item name="animeImage" type="462c0819:PsiDirectoryNode" />
+              <item name="jufeLogin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spiderLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="spiderLearning" type="462c0819:PsiDirectoryNode" />
               <item name="scrapy" type="462c0819:PsiDirectoryNode" />
-              <item name="animeImage" type="462c0819:PsiDirectoryNode" />
-              <item name="animeImage" type="462c0819:PsiDirectoryNode" />
+              <item name="jufeLogin" type="462c0819:PsiDirectoryNode" />
+              <item name="jufeLogin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spiderLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="spiderLearning" type="462c0819:PsiDirectoryNode" />
               <item name="scrapy" type="462c0819:PsiDirectoryNode" />
-              <item name="animeImage" type="462c0819:PsiDirectoryNode" />
-              <item name="animeImage" type="462c0819:PsiDirectoryNode" />
+              <item name="jufeLogin" type="462c0819:PsiDirectoryNode" />
+              <item name="jufeLogin" type="462c0819:PsiDirectoryNode" />
               <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -267,8 +246,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DataAnalysis" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -480,14 +459,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ajax/notes.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ajax/codes/topicToday.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -615,39 +586,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/images360/images360/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/images360/scrapy.cfg">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/images360/images360/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/images360/images360/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1020">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/images360/images360/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/images360/images360/spiders/images.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/images360/images360/spiders/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/images360/images360/items.py" />
+    <entry file="file://$PROJECT_DIR$/scrapy/images360/scrapy.cfg" />
+    <entry file="file://$PROJECT_DIR$/scrapy/images360/images360/pipelines.py" />
+    <entry file="file://$PROJECT_DIR$/scrapy/images360/images360/settings.py" />
+    <entry file="file://$PROJECT_DIR$/scrapy/images360/images360/middlewares.py" />
+    <entry file="file://$PROJECT_DIR$/scrapy/images360/images360/spiders/images.py" />
+    <entry file="file://$PROJECT_DIR$/scrapy/images360/images360/spiders/__init__.py" />
     <entry file="file://$PROJECT_DIR$/scrapy/scrapydownloadertest/scrapydownloadertest/spiders/httpbin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -655,57 +600,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/jufeLogin/scrapy.cfg">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/jufeLogin/test.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/spiders/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <marker date="1552465698293" expanded="true" signature="197:222" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scrapy/scrapydownloadertest/scrapydownloadertest/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/spiders/LoginTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-            <marker date="1552467699643" expanded="true" signature="363:663" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -718,16 +616,20 @@
     <entry file="file://$PROJECT_DIR$/scrapy/animeImage/animeImage/spiders/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/animeImage/animeImage/settings.py">
+    <entry file="file://$PROJECT_DIR$/scrapy/animeImage/animeImage/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        <state relative-caret-position="384">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="e#193#219#0" expanded="true" />
+            <marker date="1552481142110" expanded="true" signature="347:349" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy/animeImage/animeImage/spiders/images.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
+        <state relative-caret-position="539">
           <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
@@ -742,15 +644,14 @@
           <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
           <folding>
             <marker date="1552477631446" expanded="true" signature="202:207" ph="..." />
-            <marker date="1552477631446" expanded="true" signature="202:255" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy/animeImage/animeImage/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="65" column="29" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
+        <state relative-caret-position="264">
+          <caret line="57" selection-start-line="57" selection-end-line="65" selection-end-column="69" />
           <folding>
             <element signature="e#168#194#0" expanded="true" />
             <marker date="1552480223831" expanded="true" signature="1930:1935" ph="..." />
@@ -758,14 +659,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/animeImage/animeImage/pipelines.py">
+    <entry file="file://$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/spiders/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/animeImage/animeImage/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/jufeLogin/test.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="65" column="42" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
           <folding>
-            <element signature="e#193#219#0" expanded="true" />
-            <marker date="1552481142110" expanded="true" signature="347:349" ph="..." />
-            <marker date="1552481142110" expanded="true" signature="507:652" ph="..." />
+            <element signature="e#168#194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/jufeLogin/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-154">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding>
+            <element signature="e#24#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <marker date="1552465698293" expanded="true" signature="197:222" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/jufeLogin/jufeLogin/spiders/LoginTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+            <marker date="1552714430652" expanded="true" signature="201:202" ph="..." />
+            <marker date="1552714430652" expanded="true" signature="202:207" ph="..." />
+            <marker date="1552714430652" expanded="true" signature="232:241" ph="..." />
+            <marker date="1552714430652" expanded="true" signature="427:926" ph="..." />
+            <marker date="1552714430652" expanded="true" signature="1036:1045" ph="..." />
           </folding>
         </state>
       </provider>

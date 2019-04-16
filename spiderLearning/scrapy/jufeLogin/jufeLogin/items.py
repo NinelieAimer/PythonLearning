@@ -11,3 +11,4 @@ import scrapy
 class ParseItem(scrapy.Item):
     name=scrapy.Field()
     teacher=scrapy.Field()
+    MyName=scrapy.Field()

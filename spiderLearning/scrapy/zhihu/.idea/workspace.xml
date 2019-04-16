@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c9b81bae-00d5-4563-87dd-828a787b09a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../DataAnalysis/matplotlib/test3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArticleSpider/.idea/ArticleSpider.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArticleSpider/.idea/dictionaries/57206.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArticleSpider/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArticleSpider/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArticleSpider/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArticleSpider/ArticleSpider/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArticleSpider/ArticleSpider/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArticleSpider/ArticleSpider/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArticleSpider/ArticleSpider/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArticleSpider/ArticleSpider/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArticleSpider/ArticleSpider/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArticleSpider/ArticleSpider/spiders/jobbole.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArticleSpider/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArticleSpider/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArticleSpider/test3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeProxy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeProxy/FreeProxy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeProxy/FreeProxy/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeProxy/FreeProxy/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeProxy/FreeProxy/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeProxy/FreeProxy/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeProxy/FreeProxy/spiders/IpProxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeProxy/FreeProxy/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeneralSpider/.idea/GeneralSpider.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeneralSpider/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeneralSpider/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeneralSpider/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeneralSpider/GeneralSpider/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeneralSpider/GeneralSpider/configs/china.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeneralSpider/GeneralSpider/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeneralSpider/GeneralSpider/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeneralSpider/GeneralSpider/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeneralSpider/GeneralSpider/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeneralSpider/GeneralSpider/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeneralSpider/GeneralSpider/spiders/china.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeneralSpider/GeneralSpider/spiders/universal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeneralSpider/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jufeLogin/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobao/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobao/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobao/.idea/taobao.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobao/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobao/taobao/spiders/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/zhihu.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataAnalysis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataAnalysis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataAnalysis/matplotlib/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataAnalysis/matplotlib/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basicScrapy.md" beforeDir="false" afterPath="$PROJECT_DIR$/../basicScrapy.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jufeLogin/jufeLogin/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jufeLogin/jufeLogin/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jufeLogin/jufeLogin/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jufeLogin/jufeLogin/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jufeLogin/jufeLogin/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jufeLogin/jufeLogin/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jufeLogin/jufeLogin/spiders/LoginTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jufeLogin/jufeLogin/spiders/LoginTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jufeLogin/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/../jufeLogin/test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selenium/basicNotes.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../selenium/basicNotes.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1860924002">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="2" />
+          <entry key="py" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="2" />
+          <entry key="Python" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="3810" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="3810" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhihu/spiders/zhihuSpider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+                <marker date="1555290802331" expanded="true" signature="167:173" ph="..." />
+                <marker date="1555290802331" expanded="true" signature="198:203" ph="..." />
+                <marker date="1555290802331" expanded="true" signature="198:319" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhihu/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhihu/middlewares.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="114" column="62" selection-start-line="114" selection-start-column="62" selection-end-line="114" selection-end-column="62" />
+              <folding>
+                <element signature="e#168#194#0" expanded="true" />
+                <marker date="1555380289002" expanded="true" signature="2113:2664" ph="..." />
+                <marker date="1555380289002" expanded="true" signature="2334:2664" ph="..." />
+                <marker date="1555380289002" expanded="true" signature="3441:3483" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zhihu/spiders/jufeLogin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+                <marker date="1555382503091" expanded="true" signature="189:332" ph="..." />
+                <marker date="1555382503091" expanded="true" signature="358:359" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>登</find>
+      <find>马云</find>
+      <find>cookie</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/zhihu/spiders/zhihuSpider.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/zhihu/settings.py" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/test2.py" />
+        <option value="$PROJECT_DIR$/zhihu/middlewares.py" />
+        <option value="$PROJECT_DIR$/zhihu/spiders/jufeLogin.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="155" />
+    <option name="y" value="217" />
+    <option name="width" value="697" />
+    <option name="height" value="363" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="zhihu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhihu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhihu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhihu" type="462c0819:PsiDirectoryNode" />
+              <item name="zhihu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhihu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhihu" type="462c0819:PsiDirectoryNode" />
+              <item name="zhihu" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="zhihu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9b81bae-00d5-4563-87dd-828a787b09a6" name="Default Changelist" comment="" />
+      <created>1555288876986</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555288876986</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32840723" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37438422" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://E:/software/anaconda/envs/spiderLearning/Lib/site-packages/scrapy/http/response/text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-961">
+          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/software/anaconda/envs/spiderLearning/Lib/site-packages/scrapy/http/response/html.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/software/anaconda/envs/spiderLearning/Lib/site-packages/scrapy/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/software/anaconda/envs/spiderLearning/Lib/importlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhihu/spiders/zhihuSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+            <marker date="1555290802331" expanded="true" signature="167:173" ph="..." />
+            <marker date="1555290802331" expanded="true" signature="198:203" ph="..." />
+            <marker date="1555290802331" expanded="true" signature="198:319" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhihu/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhihu/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="114" column="62" selection-start-line="114" selection-start-column="62" selection-end-line="114" selection-end-column="62" />
+          <folding>
+            <element signature="e#168#194#0" expanded="true" />
+            <marker date="1555380289002" expanded="true" signature="2113:2664" ph="..." />
+            <marker date="1555380289002" expanded="true" signature="2334:2664" ph="..." />
+            <marker date="1555380289002" expanded="true" signature="3441:3483" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhihu/spiders/jufeLogin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+            <marker date="1555382503091" expanded="true" signature="189:332" ph="..." />
+            <marker date="1555382503091" expanded="true" signature="358:359" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

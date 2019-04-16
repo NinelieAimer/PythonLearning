@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd9a9553-cc0f-4bb1-b458-1350d0aa47ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../DataAnalysis/matplotlib/test3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeProxy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeProxy/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeProxy/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeProxy/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeProxy/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeProxy/spiders/IpProxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeProxy/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeneralSpider/.idea/GeneralSpider.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeneralSpider/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeneralSpider/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeneralSpider/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeneralSpider/GeneralSpider/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeneralSpider/GeneralSpider/configs/china.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeneralSpider/GeneralSpider/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeneralSpider/GeneralSpider/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeneralSpider/GeneralSpider/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeneralSpider/GeneralSpider/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeneralSpider/GeneralSpider/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeneralSpider/GeneralSpider/spiders/china.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeneralSpider/GeneralSpider/spiders/universal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GeneralSpider/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jufeLogin/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobao/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobao/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobao/.idea/taobao.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobao/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobao/taobao/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataAnalysis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataAnalysis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataAnalysis/matplotlib/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataAnalysis/matplotlib/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jufeLogin/jufeLogin/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jufeLogin/jufeLogin/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jufeLogin/jufeLogin/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jufeLogin/jufeLogin/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jufeLogin/jufeLogin/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jufeLogin/jufeLogin/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jufeLogin/jufeLogin/spiders/LoginTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jufeLogin/jufeLogin/spiders/LoginTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jufeLogin/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/../jufeLogin/test.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1666304766">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="json" value="1" />
+          <entry key="py" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="1" />
+          <entry key="Python" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="702" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="702" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../../Proxy/proxy_pool/Config/setting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="66" column="14" lean-forward="true" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../Proxy/proxy_pool/Run/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/FreeProxy/items.py" />
+        <option value="$PROJECT_DIR$/FreeProxy/spiders/IpProxy.py" />
+        <option value="$PROJECT_DIR$/FreeProxy/settings.py" />
+        <option value="$PROJECT_DIR$/FreeProxy/middlewares.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="662" />
+    <option name="y" value="171" />
+    <option name="width" value="697" />
+    <option name="height" value="371" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FreeProxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreeProxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FreeProxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreeProxy" type="462c0819:PsiDirectoryNode" />
+              <item name="FreeProxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FreeProxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreeProxy" type="462c0819:PsiDirectoryNode" />
+              <item name="FreeProxy" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../taobao" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FreeProxy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../Proxy/proxy_pool/Run" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../Proxy/proxy_pool/Run/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd9a9553-cc0f-4bb1-b458-1350d0aa47ce" name="Default Changelist" comment="" />
+      <created>1553476641408</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553476641408</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="2" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32840723" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/FreeProxy/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FreeProxy/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <marker date="1553477593510" expanded="true" signature="201:248" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FreeProxy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FreeProxy/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="55" column="52" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FreeProxy/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+          <folding>
+            <element signature="e#168#194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FreeProxy/spiders/IpProxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+            <marker date="1553478214026" expanded="true" signature="235:396" ph="..." />
+            <marker date="1553478214026" expanded="true" signature="422:474" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Proxy/proxy_pool/Run/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Proxy/proxy_pool/Config/setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="66" column="14" lean-forward="true" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

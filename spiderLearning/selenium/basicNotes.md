@@ -173,10 +173,19 @@ browser.switch_to_window(browser.window_handles[0])
 
 # 谷歌无头模式
 
-谷歌支持开启无头模式
+谷歌支持开启无头模式，和不加载图片
 
+```python
+chrome_options=webdriver.ChromeOptions()	#实例化一个对象
+
+
+chrome_options.add_argument("--headless")   #添加无头
+
+#设置初始化的参数，不加载图片
+prefs = {"profile.managed_default_content_settings.images":2} 
+chrome_options.add_experimental_option("prefs",prefs)	#实现不加载图片
+
+
+browser=webdriver.Chrome(chrome_options=chrome_options)	#导入设置
 ```
-chrome_options=webdriver.ChromeOptions()
-chrome_options.add_argument("--headless")
-browser=webdriver.Chrome(chrome_options=chrome_options)
-```
+
