@@ -8,8 +8,8 @@ class ZhihuspiderSpider(scrapy.Spider):
 
 
     def start_requests(self):
-        login_url='https://www.zhihu.com/signin?next=%2F'
-        yield Request(url=login_url,callback=self.parse)
+        login_url='https://www.zhihu.com/'
+        yield Request(url=login_url,callback=self.parse,meta={'UseSelenium':True})
 
     def parse(self, response):
         pass

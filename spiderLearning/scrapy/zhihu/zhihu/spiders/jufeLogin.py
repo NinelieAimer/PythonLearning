@@ -20,8 +20,4 @@ class JufeloginSpider(scrapy.Spider):
             self.logger.info('login failed')
 
     def profile(self,response):
-        cookie=response.request.cookies
-        yield Request(url='http://ecampus.jxufe.edu.cn/web/guest/appcenter',callback=self.test)
-
-    def test(self,response):
         pass

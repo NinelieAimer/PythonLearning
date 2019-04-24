@@ -10,7 +10,9 @@ from selenium import webdriver
 from fake_useragent import UserAgent
 import time
 from scrapy.http import HtmlResponse
-
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 class ZhihuSpiderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
@@ -61,31 +63,38 @@ class ZhihuSpiderMiddleware(object):
 
 class zhihuLoginMiddleware(object):
 
-    def __init__(self,ZHIHU_USERNAME,ZHIHU_PASSWORD,JUFE_USERNAME,JUFE_PASSWORD):
+    def __init__(self,ZHIHU_USERNAME,ZHIHU_PASSWORD):
+        #获取知乎的账号密码
         self.zhihu_username=ZHIHU_USERNAME
         self.zhihu_password=ZHIHU_PASSWORD
-        self.jufe_username=JUFE_USERNAME
-        self.jufe_password=JUFE_PASSWORD
+
+        #进行不加载图片
+        chrome_options=webdriver.ChromeOptions()
+        prefs = {"profile.managed_default_content_settings.images": 2}
+        chrome_options.add_experimental_option("prefs", prefs)
+        self.browser=webdriver.Chrome()
 
     @classmethod
     def from_crawler(cls,crawler):
         ZHIHU_USERNAME=crawler.settings.get('ZHIHU_USERNAME')
         ZHIZHU_PASSWORD=crawler.settings.get('ZHIHU_PASSWORD')
-        JUFE_USERNAME=crawler.settings.get('JUFE_USERNAME')
-        JUFE_PASSWORD=crawler.settings.get('JUFE_PASSWORD')
-        return cls(ZHIHU_USERNAME,ZHIZHU_PASSWORD,JUFE_USERNAME,JUFE_PASSWORD)
+        return cls(ZHIHU_USERNAME,ZHIZHU_PASSWORD)
 
     def process_request(self,request,spider):
-        if request.url=='https://www.zhihu.com/signin?next=%2F':
-            browser=webdriver.Chrome()
-            browser.get(request.url)
-            browser.find_element_by_xpath('//input[@name="username"]').send_keys(self.zhihu_username)
-            browser.find_element_by_xpath('//input[@name="password"]').send_keys(self.zhihu_password)
+        if request.meta['UseSelenium']:
+            self.browser.get('https://www.zhihu.com/signin?next=%2F')
+            self.browser.find_element_by_xpath('//input[@name="username"]').send_keys(self.zhihu_username)
+            self.browser.find_element_by_xpath('//input[@name="password"]').send_keys(self.zhihu_password)
             time.sleep(5)
-            browser.find_element_by_xpath('//button[@type="submit"]').click()
-            time.sleep(1)
-            source=browser.page_source
-            return HtmlResponse(body=source,encoding='utf-8')
+            button=self.browser.find_element_by_xpath('//button[@type="submit"]')
+            time.sleep(3)
+
+            #把flag改为false,并保存cookie作为meta传递出去
+            request.meta['UseSelenium']=False
+            request.meta['cookies']=self.browser.get_cookies()
+
+            #传递response
+            return HtmlResponse(body=self.browser.page_source,encoding='utf-8',url=request.url)
 
 class JufeLoginMiddleware(object):
     def __init__(self,JUFE_USERNAME,JUFE_PASSWORD):

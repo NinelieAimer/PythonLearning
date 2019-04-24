@@ -123,6 +123,18 @@ DOWNLOADER_MIDEDLEWARES={
 ## CsvItemExporter
 
 ```python
+#因为scrapy的一些问题，csv文件可能会有空行，要选区CsvItemExporter里面进行设置
+ self.stream = io.TextIOWrapper(
+            file,
+            newline="",	#添加这个newline=""，导出的csv中就没有空行了
+            line_buffering=False,
+            write_through=True,
+            encoding=self.encoding
+        )
+
+    
+    
+#在pipeline中的操作
 from scrapy.exporters import CsvItemExporter
 class testPipeline(object):
     def __init__(self):
@@ -394,3 +406,54 @@ scrapy crawl jobbole -s JOBDIR=job_info/001
 #重新开始爬取就把001改成其他就可以了
 ```
 
+
+
+## from_crawler的一些用法
+
+在Middlerware获得settings中的一些设置
+
+```python
+@classmethod
+def from_crawler(cls,crawler):
+    ZHIHU_USERNAME=crawler.settings.get('ZHIHU_USERNAME')
+    ZHIZHU_PASSWORD=crawler.settings.get('ZHIHU_PASSWORD')
+    return cls(ZHIHU_USERNAME,ZHIZHU_PASSWORD)
+```
+
+这样就让这个类中有了ZHIHU_USERNAME,ZHIZHU_PASSWORD这两个，要用__init__()来接收
+
+```python
+def __init__(self,ZHIHU_USERNAME,ZHIHU_PASSWORD):
+    #获取知乎的账号密码
+    self.zhihu_username=ZHIHU_USERNAME
+    self.zhihu_password=ZHIHU_PASSWORD
+```
+
+## 关于不同item使用不同pipeline的用法分析
+
+> ​	所有的item被yield后都会进入所有的pipeline，所以要想区分不同的，且process_item()中的item参数其实是一样的，所以要区分不同的item需要用isinstance（）方法。
+
+```python
+def process_item(self,item,spider):
+    if isinstance(item,profitItem):
+        self.exporter_profit.fields_to_export=['STOCK_NUMBER','YEAREND_DATE_PROFIT','TURNOVER','PBT','OPER_PROFIT','NET_PROF','INCOME_NETTRADING','INCOME_NETFEE','INCOME_INTEREST','EPS','DPS']
+        self.exporter_profit.export_item(item)
+        return item
+    elif isinstance(item,assetsItem):
+        self.exporter_assets.fields_to_export = ['STOCK_NUMBER','YEAREND_DATE_ASSETS', 'TOTAL_LIAB', 'TOTAL_DEBT', 'TOTAL_ASS',
+                                          'OTHER_ASS', 'LOAN_TO_BANK', 'INVENTORY', 'FIX_ASS',
+                                          'FINANCIALASSET_SALE', 'EQUITY', 'DERIVATIVES_LIABILITIES',
+                                          'DERIVATIVES_ASSET', 'DEPOSITS_FROM_CUSTOMER', 'CURR_LIAB', 'CURR_ASS',
+                                          'CASH_SHORTTERMFUND', 'CASH']
+        self.exporter_assets.export_item(item)
+        return item
+    else:
+        self.exporter_cash.fields_to_export=[
+            'STOCK_NUMBER','YEAREND_DATE_CASH','CF_NCF_OPERACT','CF_INV','CF_INT_REC','CF_INT_PAID','CF_FIN_ACT','CF_EXCH',
+            'CF_END','CF_DIV_REC','CF_DIV_PAID','CF_CHANGE_CSH','CF_BEG'
+        ]
+        self.exporter_cash.export_item(item)
+        return item
+```
+
+这里就对过来item进行判断，判断他的超类是否属于items中定义的某个超类，这样就可以得到检查各种Item的效果。

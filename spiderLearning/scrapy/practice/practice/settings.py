@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for zhihu project
+# Scrapy settings for practice project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,19 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'zhihu'
+BOT_NAME = 'practice'
 
-SPIDER_MODULES = ['zhihu.spiders']
-NEWSPIDER_MODULE = 'zhihu.spiders'
+SPIDER_MODULES = ['practice.spiders']
+NEWSPIDER_MODULE = 'practice.spiders'
+
+
+STOCK_NUMBER='00700'
+
+
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'zhihu (+http://www.yourdomain.com)'
+#USER_AGENT = 'practice (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
@@ -47,21 +52,15 @@ COOKIES_ENABLED = True
 # Enable or disable spider middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'zhihu.middlewares.ZhihuSpiderMiddleware': 543,
+#    'practice.middlewares.PracticeSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-   'zhihu.middlewares.zhihuLoginMiddleware': 543,
-   # 'zhihu.middlewares.JufeLoginMiddleware':544
+   'practice.middlewares.stockMiddleware': 543,
 }
 
-ZHIHU_USERNAME='17770613484'
-ZHIHU_PASSWORD='asd369258'
-
-JUFE_PASSWORD='jkl147258'
-JUFE_USERNAME='2201702841'
 # Enable or disable extensions
 # See http://scrapy.readthedocs.org/en/latest/topics/extensions.html
 #EXTENSIONS = {
@@ -70,9 +69,9 @@ JUFE_USERNAME='2201702841'
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'zhihu.pipelines.ZhihuPipeline': 300,
-#}
+ITEM_PIPELINES = {
+   'practice.pipelines.profitItemPipline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
