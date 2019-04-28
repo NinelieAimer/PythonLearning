@@ -15,7 +15,7 @@ SPIDER_MODULES = ['practice.spiders']
 NEWSPIDER_MODULE = 'practice.spiders'
 
 
-STOCK_NUMBER='00700'
+STOCK_NUMBER='000550'
 
 
 
