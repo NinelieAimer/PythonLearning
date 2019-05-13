@@ -309,4 +309,53 @@ data[(np.abs(data)>3).any(1)]
   df.sample(n=3)
   ```
 
+
+### 计算指标/虚拟变量
+
+- 有时候一列我们想把它设为标志，一般都是用来做关联分析的，设置为1，0变量，**这样就可以使用get_dummies方法**
+
+  ```python
+  #这个是将df['key']中的东西设置为列，然后前缀用key做,prefix是前缀的意思
+  df2=pd.get_dummies(df['key'],prefix='key')
   
+  #拼和两张表
+  df_with_dummy=df[['data']].join(df2)
+  ```
+
+- 但是大部分情况都是，一般这些东西都是挤在一个单元格中，需要特殊处理
+
+  ```python
+  #首先要知道里多少值嘛
+  all_genres=[]
+  
+  for x in df['genres']:
+  	all_genres=all_genres+x.split(',')	#假设逗号是分隔符
+  
+  #使用unique方法去重，得到列表
+  genres=pd.unique(all_genres)
+  
+  #使用zeros构建0矩阵
+  zero=np.zeros(len(df),len(genres))	#len用在DataFrame上返回的是行数，实在不理解就len(df.index)
+  
+  #创建一个DataFrame对象
+  tem_data=pd.DataFrame(zero,columns=genres)
+  
+  #需要把值改成1，就需要用循环了
+  for i,gen in df['genres']:
+     	tem_data.iloc[i].loc[gen.split(',')]=1
+      
+  #使用join函数进行加入就好，可以加前缀
+  df=df.join(tem_data.add_prefix('Genre_'))
+  
+  ```
+
+## 字符串操作
+
+### 字符串的常用方法
+
+- split和strip，这个个就不多讲了，就是用来处理普通字串的
+- replace也没什么好说的
+- Index和find函数，这个稍微说一下，index和find都是定位**第一个出现的位置**，但是都细小不同，**find的异常值就会返回-1**。
+
+### 正则表达式
+
