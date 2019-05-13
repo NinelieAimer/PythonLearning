@@ -313,6 +313,8 @@ frame2=frame.reindex(index=['b','a','c'],columns=['copy','paste','delete'])
 | limit      | 向前或向后填充时候，所需要填充的最大尺寸间隙                 |
 | copy       | 如果为True，即使新索引等于旧索引，也总是赋值底层数据，如果是False就索引相同时不要复制数据 |
 
+> ​	如果要更改列标签，==直接使用df.columns属性，然后传入一个列表就好==，reindex**是一个用来改变顺序的**
+
 ### 轴上删除条目
 
 > ​	drop是用来删除数据的，利用索引进行删除，如果直接用drop，==不设置inplace参数==，会生成一个新对象，进行修改。如果想直接修改原数据，用将inplace设置为True
@@ -520,7 +522,7 @@ frame.sub(series3,axis=0)	#这个就是选择行上进行对齐，然后相除
 np.abs(frame)
 ```
 
-> ​	也可以使用==**apply方法**==，可以对一行或者一列进行绑定函数
+> ​	也可以使用==**apply方法**==，可以对一行或者一列进行绑定函数,操作的对象是==DataFrame中的一列，用函数的时候，就是一列一列的==，但是applymap不一样，操作的是==每个元素==
 
 ```python
 frame=pd.DataFrame(np.random.randn(4,3),columns=list('bde'),index=['kirito','asuna','sikuha','sinon'])

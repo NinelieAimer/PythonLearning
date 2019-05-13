@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efe64f6c-0870-428f-9d1d-2fbec666d5fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pandas/pandas.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pandas/pandas.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pandas/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataCleaning/dataCleaning.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_files/read_files.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pandas/pandas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pandas/pandas.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pandas/pandas.md" beforeDir="false" afterPath="$PROJECT_DIR$/pandas/pandas.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,32 +24,33 @@
           <entry key="project.open.time.33" value="2" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="7587" />
+          <entry key="py" value="10610" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="7587" />
+          <entry key="Python" value="10610" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="ipynb" value="2" />
-          <entry key="md" value="1" />
-          <entry key="py" value="1" />
+          <entry key="ipynb" value="5" />
+          <entry key="md" value="3" />
+          <entry key="py" value="3" />
           <entry key="pyi" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IPNB" value="2" />
-          <entry key="Markdown" value="1" />
-          <entry key="Python" value="1" />
+          <entry key="IPNB" value="5" />
+          <entry key="Markdown" value="3" />
+          <entry key="Python" value="3" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
@@ -57,28 +59,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fundation/fundation.ipynb">
+        <entry file="file://$PROJECT_DIR$/read_files/read_files.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Numpy/NumpyLearning.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="45" />
+              <selected id="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pandas/pandas.ipynb">
+        <entry file="file://$PROJECT_DIR$/dataCleaning/dataCleaning.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="137" />
+              <selected id="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pandas/pandas.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="242">
+                <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -88,8 +93,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -103,6 +108,8 @@
         <option value="$PROJECT_DIR$/Numpy/NumpyLearning.ipynb" />
         <option value="$PROJECT_DIR$/pandas/test.py" />
         <option value="$PROJECT_DIR$/pandas/pandas.ipynb" />
+        <option value="$PROJECT_DIR$/read_files/read_files.ipynb" />
+        <option value="$PROJECT_DIR$/dataCleaning/dataCleaning.ipynb" />
       </list>
     </option>
   </component>
@@ -123,6 +130,11 @@
             <path>
               <item name="analysisData" type="b2602c69:ProjectViewProjectNode" />
               <item name="analysisData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="analysisData" type="b2602c69:ProjectViewProjectNode" />
+              <item name="analysisData" type="462c0819:PsiDirectoryNode" />
+              <item name="dataCleaning" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="analysisData" type="b2602c69:ProjectViewProjectNode" />
@@ -225,7 +237,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -262,18 +274,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pandas/pandas.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fundation/fundation.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="0" />
+          <selected id="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas/pandas.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/software/anaconda/envs/analysisData/Lib/site-packages/pandas/io/parsers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="498" column="4" selection-start-line="498" selection-start-column="4" selection-end-line="498" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -284,10 +302,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pandas/pandas.ipynb">
+    <entry file="file://$PROJECT_DIR$/pandas/pandas.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="242">
+            <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read_files/read_files.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="137" />
+          <selected id="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataCleaning/dataCleaning.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="75" />
         </state>
       </provider>
     </entry>
