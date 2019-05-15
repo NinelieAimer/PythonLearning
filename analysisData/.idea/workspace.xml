@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efe64f6c-0870-428f-9d1d-2fbec666d5fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataCleaning/dataCleaning.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/read_files/read_files.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pandas/pandas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pandas/pandas.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pandas/pandas.md" beforeDir="false" afterPath="$PROJECT_DIR$/pandas/pandas.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataRegularization/dataRegularization.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/dataRegularization/dataRegularization.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataRegularization/dataRegularization.md" beforeDir="false" afterPath="$PROJECT_DIR$/dataRegularization/dataRegularization.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,19 +22,20 @@
           <entry key="project.open.time.33" value="2" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="12524" />
+          <entry key="py" value="13673" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="12524" />
+          <entry key="Python" value="13673" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -81,46 +80,7 @@
         <entry file="file://$PROJECT_DIR$/dataRegularization/dataRegularization.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://E:/software/anaconda/envs/analysisData/Lib/site-packages/pandas/core/generic.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="3354" column="8" selection-start-line="3354" selection-start-column="8" selection-end-line="3354" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/1946584745/builtins.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-598">
-              <caret line="4739" column="47" selection-start-line="4739" selection-start-column="47" selection-end-line="4739" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://E:/software/anaconda/envs/analysisData/Lib/site-packages/pandas/core/reshape/reshape.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="1071" column="43" selection-start-line="1071" selection-start-column="43" selection-end-line="1071" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pandas/pandas.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1232">
-                <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
-              </first_editor>
-              <second_editor />
+              <selected id="49" />
             </state>
           </provider>
         </entry>
@@ -163,6 +123,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,7 +150,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -346,41 +306,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pandas/pandas.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1232">
-            <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/software/anaconda/envs/analysisData/Lib/site-packages/pandas/core/reshape/reshape.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="1071" column="43" selection-start-line="1071" selection-start-column="43" selection-end-line="1071" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/1946584745/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-598">
-          <caret line="4739" column="47" selection-start-line="4739" selection-start-column="47" selection-end-line="4739" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/read_files/read_files.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/software/anaconda/envs/analysisData/Lib/site-packages/pandas/core/generic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="3354" column="8" selection-start-line="3354" selection-start-column="8" selection-end-line="3354" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -391,10 +320,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/1946584745/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104258">
+          <caret line="4739" column="47" selection-start-line="4739" selection-start-column="47" selection-end-line="4739" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/software/anaconda/envs/analysisData/Lib/site-packages/pandas/core/reshape/reshape.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22880">
+          <caret line="1071" column="43" selection-start-line="1071" selection-start-column="43" selection-end-line="1071" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas/pandas.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1232">
+            <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/software/anaconda/envs/analysisData/Lib/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="3354" column="8" selection-start-line="3354" selection-start-column="8" selection-end-line="3354" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dataRegularization/dataRegularization.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="9" />
+          <selected id="49" />
         </state>
       </provider>
     </entry>

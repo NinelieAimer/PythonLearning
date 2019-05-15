@@ -83,4 +83,63 @@
   frame.swaplevel('key1','key2')
   ```
 
-- 
+- 以前有sort_index的方法可以对索引进行排序，但是这里索引会有很多层级，所以有一个level参数，从0到大自己调整。
+
+  ```python
+  frame.sort_index(level=1)
+  ```
+
+  ![1557907870232](C:\Users\57206\AppData\Roaming\Typora\typora-user-images\1557907870232.png)
+
+### 按层级进行汇总统计
+
+> ​	层级进行汇总就是按照某一层级相同的索引进行汇总
+
+```python
+frame.sum(level='key1')
+```
+
+![1557908846605](C:\Users\57206\AppData\Roaming\Typora\typora-user-images\1557908846605.png)
+
+```python
+frame.sum(level='key2')
+```
+
+![1557908913364](C:\Users\57206\AppData\Roaming\Typora\typora-user-images\1557908913364.png)
+
+- 按照列进行汇总，这里插一下高维重命名列，可以用rename_axis方法，指定axis就可以了
+
+  ```python
+  frame.rename_axis({"red":"green"},axis=1)
+  
+  #这里的level最好就用name进行选择
+  frame.sum(level='color',axis=1)
+  ```
+
+### 使用DataFrame的列进行索引
+
+- 有时候需要把某个列或者多个列作为索引，使用set_index传入列表就可以分层索引
+
+```python
+frame.set_index(['c','d'])
+```
+
+![1557910548664](C:\Users\57206\AppData\Roaming\Typora\typora-user-images\1557910548664.png)
+
+- 默认情况下，会丢弃这两列，要想不丢弃就要用参数drop设置为False
+
+  ```python
+  frame.set_index(['c','d'],drop=False)
+  ```
+
+  
+
+![1557910729790](C:\Users\57206\AppData\Roaming\Typora\typora-user-images\1557910729790.png)
+
+- 返回reset_index()可以将分层索引加入到列中
+
+  ```python
+  frame.reset_index()
+  ```
+
+  
