@@ -391,7 +391,6 @@ custom_settings={
   #这样就可以获得原来的cookies,然后利用meta参数，把cookie传进去。
   ```
 
-  
 
 ## 暂停重重启spider
 
@@ -457,3 +456,10 @@ def process_item(self,item,spider):
 ```
 
 这里就对过来item进行判断，判断他的超类是否属于items中定义的某个超类，这样就可以得到检查各种Item的效果。
+
+## 代理使用
+
+我发现一个好用的ip池
+
+[p.ashtwo.cn](https://link.zhihu.com/?target=http%3A//p.ashtwo.cn/)
+
