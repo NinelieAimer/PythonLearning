@@ -207,3 +207,54 @@ f(3)#执行这个匿名函数，为9
 (x**3 for x in range(10))
 ```
 
+## 正则表达式
+
+> ​	python的正则表达式是用re库来进行实现的，下面是对核心方法介绍
+
+- compile方法，这个方法十分重要，有利于节省cpu，在数据很大时候会更好，里面有一些参数，比如flags参数，可以设置忽略大小写re.IGNORECASE
+
+  ```python
+  import re
+  regex=re.compile(r'\s+')	#生成一个空格的对象
+  regex.split(string)	#这个split方法比较特殊，要理解，返回一个列表
+  ```
+
+- findall方法，返回所有匹配的东西，列表
+
+  ```python
+  regex.findall(text)	#也是反的，要注意，返回一个列表
+  ```
+
+- search主要是用来**定位的**，返回一个对象，对象的一些方法很好用
+
+  ```python
+  m=regex.search(text)	#这里我们得到了一个对象
+  text[m.start():m.end()]	#使用start()方法得到起始位置，end()方法得到最后位置,切片
+  ```
+
+- match只会在出现于字符串起始位置时进行匹配，如果没有匹配道就会返回None
+
+  ```python
+  regex.match(text)
+  ```
+
+- sub要传入参数，会替换匹配到的东西
+
+  ```python
+  regex.sub(new_value,text)
+  ```
+
+  
+
+- 当我们还有**需求的时候有时候要提取匹配的一部分内容，那就是加括号了**
+
+  ```python
+  regex=re.compile(r'(te4wjlsf)@(fdsaf)')
+  
+  #然后匹配的时候
+  m=regex.match(text)
+  m.groups()	#这个是默认匹配所有，会返回一个元组，对应括号的位置
+  
+  #如果是findall方法，会返回一个元组列表。
+  ```
+

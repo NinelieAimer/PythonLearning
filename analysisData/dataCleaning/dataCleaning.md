@@ -357,5 +357,62 @@ data[(np.abs(data)>3).any(1)]
 - replace也没什么好说的
 - Index和find函数，这个稍微说一下，index和find都是定位**第一个出现的位置**，但是都细小不同，**find的异常值就会返回-1**。
 
-### 正则表达式
+### 向量化字符串函数
+
+> ​	这里就是重点讲**Series的str属性的使用**
+
+- 字符串在处理时候有缺失值，你想知道他是否有某种字符串，就可以用**str.contains**方法来进行判断
+
+  ```
+  data={
+      'Dave':'dave@google.com',
+      'Steve':'steve@gmail.com',
+      'Rob':'rob@gmail.com',
+      'Wes':np.NAN
+  }
+  data=pd.Series(data)
+  data.str.contains('gmail')
+  ===
+  Dave     False
+  Rob       True
+  Steve     True
+  Wes        NaN
+  ===
+  ```
+
+- 也可以使用re的IGNORECASE防止缺失值干扰
+
+  ```python
+  #这里不能用compile对象只能直接传入正则表达式才可以
+  data.str.findall(r'([A-Z0-9._%+-]+)@([A-Z0-9.-]+)\.([A-Z]{2,4})',flags=re.IGNORECASE)
+  ```
+
+- str属性其实就是返回这个列表，然后里面的对象就是字符串而已，因为map函数是无法对字符串使用的，除非传入字典。
+
+  ```python
+  data.str[0:]	#切片
+  data.str.upper()	#大写全部
+  ```
+
+**对于str的一些方法**：
+
+| 方法        | 描述                                                         |
+| ----------- | ------------------------------------------------------------ |
+| cat         | 这个方法是按照你想要的分隔符拼接字符串，注意，**要传入一个列表**，而且这个列表的**长度和行数要相等**，就会把相应位置进行拼接 |
+| contains    | 查看某个字符串是否在数据中，返回**布尔数组**，可以传入**正则表达式** |
+| count       | 模式出现次数的计数，**是对每个元素，出现的次数**             |
+| extract     |                                                              |
+| findall     | 传入正则表达式的，每个元素地方都会返回列表                   |
+| join        | 根据传入的分隔符，将Series整合                               |
+| len         | 长度计算                                                     |
+| lower,upper | 大小写                                                       |
+| match       | 正则的                                                       |
+| pad         | 将空白加入到字符串左右两边                                   |
+| center      | 等价于pad(side='both')                                       |
+| repeat      | 重复值，s.str.repeat(3)，就是把字符串重复三次                |
+| replace     | 以其他字符串代替模式或者正则表达式匹配项目，第一个是模式，第二个是要换的值 |
+| split       | 拆分                                                         |
+| strip       | 去除空白，换行符                                             |
+| rstrip      | 去右边                                                       |
+| lstrip      | 去左边                                                       |
 
