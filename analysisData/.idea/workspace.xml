@@ -30,12 +30,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="13673" />
+          <entry key="py" value="16554" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="13673" />
+          <entry key="Python" value="16554" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -80,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/dataRegularization/dataRegularization.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="49" />
+              <selected id="101" />
             </state>
           </provider>
         </entry>
@@ -112,7 +112,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="222" />
     <option name="width" value="697" />
     <option name="height" value="371" />
@@ -238,7 +238,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -354,7 +354,7 @@
     <entry file="file://$PROJECT_DIR$/dataRegularization/dataRegularization.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="49" />
+          <selected id="101" />
         </state>
       </provider>
     </entry>
