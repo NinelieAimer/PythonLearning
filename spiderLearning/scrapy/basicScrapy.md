@@ -191,6 +191,39 @@ IMAGES_MIN_HEIGHT=100
 
 IMAGES_MIN_WIDTH=100
 
+## FilesPipeline的一些用法
+
+> ​	一般情况下，我们不一定是下载图片，而是下载文件，但是如果直接用Request会出现错误，因为这个东西不是专门用来下东西，对于文件判定，和一些东西不太好，采用FilePipeline才是比较好的方法
+
+```python
+
+#安装一些包
+from scrapy import Request
+from scrapy.pipelines.files import FilesPipeline
+from scrapy.exceptions import DropItem
+
+#和ImagePipeline类似，FilesPipeline也是重写两个方法
+class FontPipeline(FilesPipeline):
+    #这个就是用来发送请求的，默认是返回是一个Request的列表，但是我们需要请求的是一个item中的url
+    def get_media_requests(self, item, info):	
+        url=item['file_url']
+        yield Request(url=url)
+
+    def item_completed(self, results, item, info):	#这个就是用来在完成时候用来丢弃不用的东西
+        file_paths = [x['path'] for ok, x in results if ok]
+        if not file_paths:
+            raise DropItem('failed')
+        return item
+```
+
+settings中需要设置储存路劲
+
+```python
+FILES_STORE ='[PATH]'
+```
+
+
+
 ## 保存到Json文件的pipeline的写法
 
 ### 自定义方法
@@ -462,4 +495,15 @@ def process_item(self,item,spider):
 我发现一个好用的ip池
 
 [p.ashtwo.cn](https://link.zhihu.com/?target=http%3A//p.ashtwo.cn/)
+
+
+
+使用很简单，在middleware里面对process_request中改，首先要获取
+
+```python
+from pyquery import PyQuery as pq
+html = pq(url="http://p.ashtwo.cn/")
+ip = html('p').text()
+request.meta['proxy']='http://'+ip
+```
 
