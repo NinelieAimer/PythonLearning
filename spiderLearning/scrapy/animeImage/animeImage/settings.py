@@ -14,15 +14,24 @@ BOT_NAME = 'animeImage'
 SPIDER_MODULES = ['animeImage.spiders']
 NEWSPIDER_MODULE = 'animeImage.spiders'
 
-IMAGES_STORE='./img'
+IMAGES_STORE='animeImage/imgtest'
+FILES_STORE ='animeImage/img'
 
-
-
-# Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'animeImage (+http://www.yourdomain.com)'
-
-# Obey robots.txt rules
 ROBOTSTXT_OBEY = False
+
+#重试的时间，我设置1000秒，因为图片可能比较大，有时候响应不过来
+DOWNLOAD_TIMEOUT=600
+
+DOWNLOADER_MIDDLEWARES = {
+   'animeImage.middlewares.RandomUserAgentMiddleware': 543,
+}
+
+#pipeline使用，如果用ImagePipeline就注释掉另一个就好，因为ImagePipeline貌似不好下大图，小图方便
+ITEM_PIPELINES = {
+   'animeImage.pipelines.ImagePipeline': 300,
+   # 'animeImage.pipelines.FilePipeline': 301
+}
+
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -55,9 +64,6 @@ ROBOTSTXT_OBEY = False
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
-DOWNLOADER_MIDDLEWARES = {
-   'animeImage.middlewares.RandomUserAgentMiddleware': 543,
-}
 
 # Enable or disable extensions
 # See http://scrapy.readthedocs.org/en/latest/topics/extensions.html
@@ -67,9 +73,6 @@ DOWNLOADER_MIDDLEWARES = {
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
-ITEM_PIPELINES = {
-   'animeImage.pipelines.ImagePipeline': 300,
-}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html

@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efe64f6c-0870-428f-9d1d-2fbec666d5fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/visualization/visualization.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataGrouping/dataGrouping.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataGrouping/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spiderLearning/scrapy/animeImage/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/analysisData.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/analysisData.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataRegularization/dataRegularization.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/dataRegularization/dataRegularization.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataRegularization/dataRegularization.md" beforeDir="false" afterPath="$PROJECT_DIR$/dataRegularization/dataRegularization.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualization/visualization.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/visualization/visualization.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spiderLearning/scrapy/animeImage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spiderLearning/scrapy/animeImage/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spiderLearning/scrapy/animeImage/animeImage/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/../spiderLearning/scrapy/animeImage/animeImage/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spiderLearning/scrapy/animeImage/animeImage/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../spiderLearning/scrapy/animeImage/animeImage/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spiderLearning/scrapy/animeImage/animeImage/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../spiderLearning/scrapy/animeImage/animeImage/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spiderLearning/scrapy/animeImage/animeImage/spiders/images.py" beforeDir="false" afterPath="$PROJECT_DIR$/../spiderLearning/scrapy/animeImage/animeImage/spiders/images.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spiderLearning/scrapy/font/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spiderLearning/scrapy/font/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,42 +28,44 @@
     <session id="1626010071">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.31" value="2" />
           <entry key="project.open.time.33" value="2" />
+          <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="18970" />
+          <entry key="py" value="24719" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="18970" />
+          <entry key="Python" value="24719" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="ipynb" value="7" />
-          <entry key="md" value="3" />
-          <entry key="py" value="7" />
+          <entry key="ipynb" value="8" />
+          <entry key="md" value="4" />
+          <entry key="py" value="9" />
           <entry key="pyi" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IPNB" value="7" />
-          <entry key="Markdown" value="3" />
-          <entry key="Python" value="7" />
+          <entry key="IPNB" value="8" />
+          <entry key="Markdown" value="4" />
+          <entry key="Python" value="9" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
@@ -87,10 +101,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/visualization/visualization.ipynb">
+        <entry file="file://$PROJECT_DIR$/dataGrouping/dataGrouping.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="41" />
+              <selected id="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://E:/software/anaconda/Lib/site-packages/pandas/core/reshape/tile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-242">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -118,8 +141,11 @@
         <option value="$PROJECT_DIR$/pandas/pandas.ipynb" />
         <option value="$PROJECT_DIR$/read_files/read_files.ipynb" />
         <option value="$PROJECT_DIR$/dataCleaning/dataCleaning.ipynb" />
-        <option value="$PROJECT_DIR$/dataRegularization/dataRegularization.ipynb" />
         <option value="$PROJECT_DIR$/visualization/visualization.ipynb" />
+        <option value="$PROJECT_DIR$/dataGrouping/test.py" />
+        <option value="$PROJECT_DIR$/dataRegularization/dataRegularization.ipynb" />
+        <option value="$PROJECT_DIR$/dataGrouping/data.ipynb" />
+        <option value="$PROJECT_DIR$/dataGrouping/dataGrouping.ipynb" />
       </list>
     </option>
   </component>
@@ -144,7 +170,7 @@
             <path>
               <item name="analysisData" type="b2602c69:ProjectViewProjectNode" />
               <item name="analysisData" type="462c0819:PsiDirectoryNode" />
-              <item name="visualization" type="462c0819:PsiDirectoryNode" />
+              <item name="dataGrouping" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -154,8 +180,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="E:/software/Git/bin/git.exe" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spiderLearning/scrapy/animeImage" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -176,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.test (1)">
     <configuration name="analysisData" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="analysisData" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,6 +218,27 @@
       <option name="additionalOptions" value="" />
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="analysisData" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataGrouping" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataGrouping/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -218,9 +265,11 @@
     <list>
       <item itemvalue="Jupyter Notebook.analysisData" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.test (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
@@ -242,7 +291,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17782739" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19717261" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -338,10 +387,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/1946584745/numpy/random/mtrand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="2069" column="7" lean-forward="true" selection-start-line="2069" selection-start-column="7" selection-end-line="2069" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataGrouping/dataGrouping.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualization/visualization.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataGrouping/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/read_files/read_files.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="19" />
+          <selected id="0" />
         </state>
       </provider>
     </entry>
@@ -359,17 +437,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/1946584745/numpy/random/mtrand.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="2069" column="7" lean-forward="true" selection-start-line="2069" selection-start-column="7" selection-end-line="2069" selection-end-column="7" />
+    <entry file="file://$PROJECT_DIR$/dataGrouping/data.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/visualization/visualization.ipynb">
+    <entry file="file://E:/software/anaconda/Lib/site-packages/pandas/core/reshape/tile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-242">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataGrouping/dataGrouping.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="41" />
+          <selected id="104" />
         </state>
       </provider>
     </entry>

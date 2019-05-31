@@ -7,6 +7,7 @@
 
 from scrapy import Request
 from scrapy.exceptions import DropItem
+from scrapy.pipelines.files import FilesPipeline
 from scrapy.pipelines.images import ImagesPipeline
 
 class ImagePipeline(ImagesPipeline):
@@ -21,3 +22,14 @@ class ImagePipeline(ImagesPipeline):
             raise DropItem('failed')
         return item
 
+class FilePipeline(FilesPipeline):
+
+    def get_media_requests(self, item, info):
+        url = item['img_url']
+        yield Request(url=url)
+
+    def item_completed(self, results, item, info):
+        image_paths=[x['path'] for ok,x in results if ok]
+        if not image_paths:
+            raise DropItem('failed')
+        return item

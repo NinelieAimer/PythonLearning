@@ -12,7 +12,7 @@ class ImagesSpider(scrapy.Spider):
     def start_requests(self):
         #构造参数设置搜索文件
         data={
-            "search_tag":"miku",
+            "search_tag": "darling in the franxx",
             "lang":"en"
         }
         #构造基本的url
@@ -23,7 +23,7 @@ class ImagesSpider(scrapy.Spider):
 
     def parse(self, response):
         #生成下一页的request
-        next=response.xpath('//div[@id="posts"]/div[3]/p/a[last()]/@href').extract_first()
+        next=response.css('p.numeric_pages a:last-child::attr(href)').extract_first()
         if next:
             next_url=response.urljoin(next)
             yield Request(url=next_url,callback=self.parse)
@@ -32,7 +32,7 @@ class ImagesSpider(scrapy.Spider):
             return
 
         #提取图片网址，发送请求
-        img_list=response.css("#posts .img_block_big a::attr(href)").extract()
+        img_list=response.css("#posts .posts_block .img_block_big>a::attr(href)").extract()
         for url in img_list:
             img_url=response.urljoin(url)
             yield Request(url=img_url,callback=self.download)
@@ -41,6 +41,9 @@ class ImagesSpider(scrapy.Spider):
     def download(self,response):
         item=AnimeimageItem()
         img_url=response.css('.download_icon::attr(href)').extract_first()
-        item['img_url']=response.urljoin(img_url)
-        item['title']=response.css('#cont > div:nth-child(1) > div:nth-child(1) > h1::text').extract_first()
-        yield item
+        if img_url:
+            item['img_url'] = response.urljoin(img_url)
+            item['title'] = response.css('#cont > div:nth-child(1) > div:nth-child(1) > h1::text').extract_first()
+            yield item
+        else:
+            pass

@@ -32,6 +32,16 @@
   ===
   ```
 
+- **分层索引**在创建的时候，比较麻烦，要命名的话非常不容易，所以可以单独使用MultiIndex来进行操作
+
+  ```python
+  test=pd.MultiIndex.from_arrays([['US','US','US','JP','JP'],[1,3,5,1,3]],names=['country','number'])
+  #这样就创建一个对象，可以赋值给columns，也可以赋值给index
+  pd.DataFrame(np.random.randn(5,4),columns=test)
+  ```
+  
+  
+  
 - 切片
 
   ```python
