@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efe64f6c-0870-428f-9d1d-2fbec666d5fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataGrouping/dataGrouping.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataGrouping/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spiderLearning/scrapy/animeImage/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/analysisData.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/analysisData.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataRegularization/dataRegularization.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/dataRegularization/dataRegularization.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataRegularization/dataRegularization.md" beforeDir="false" afterPath="$PROJECT_DIR$/dataRegularization/dataRegularization.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualization/visualization.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/visualization/visualization.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spiderLearning/scrapy/animeImage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spiderLearning/scrapy/animeImage/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spiderLearning/scrapy/animeImage/animeImage/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/../spiderLearning/scrapy/animeImage/animeImage/middlewares.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spiderLearning/scrapy/animeImage/animeImage/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../spiderLearning/scrapy/animeImage/animeImage/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spiderLearning/scrapy/animeImage/animeImage/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../spiderLearning/scrapy/animeImage/animeImage/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spiderLearning/scrapy/animeImage/animeImage/spiders/images.py" beforeDir="false" afterPath="$PROJECT_DIR$/../spiderLearning/scrapy/animeImage/animeImage/spiders/images.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spiderLearning/scrapy/font/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spiderLearning/scrapy/font/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataGrouping/dataGrouping.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/dataGrouping/dataGrouping.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataGrouping/dataGrouping.md" beforeDir="false" afterPath="$PROJECT_DIR$/dataGrouping/dataGrouping.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,19 +33,19 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="24719" />
+          <entry key="py" value="25000" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="24719" />
+          <entry key="Python" value="25000" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ipynb" value="8" />
           <entry key="md" value="4" />
-          <entry key="py" value="9" />
+          <entry key="py" value="10" />
           <entry key="pyi" value="1" />
         </counts>
       </usages-collector>
@@ -65,7 +53,7 @@
         <counts>
           <entry key="IPNB" value="8" />
           <entry key="Markdown" value="4" />
-          <entry key="Python" value="9" />
+          <entry key="Python" value="10" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
@@ -104,16 +92,16 @@
         <entry file="file://$PROJECT_DIR$/dataGrouping/dataGrouping.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="104" />
+              <selected id="109" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://E:/software/anaconda/Lib/site-packages/pandas/core/reshape/tile.py">
+        <entry file="file://E:/software/anaconda/Lib/site-packages/pandas/core/frame.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-242">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="194">
+              <caret line="5751" column="8" selection-start-line="5751" selection-start-column="8" selection-end-line="5751" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -419,7 +407,7 @@
     <entry file="file://$PROJECT_DIR$/read_files/read_files.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="0" />
+          <selected id="19" />
         </state>
       </provider>
     </entry>
@@ -451,10 +439,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://E:/software/anaconda/Lib/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="5751" column="8" selection-start-line="5751" selection-start-column="8" selection-end-line="5751" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dataGrouping/dataGrouping.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="104" />
+          <selected id="109" />
         </state>
       </provider>
     </entry>

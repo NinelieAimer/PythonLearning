@@ -433,3 +433,63 @@ def regress(data,yvars,xvars):
 
 by_year.apply(regress,'AAPL',['SPX'])
 ```
+
+## 数据透视表和交叉表
+
+> ​	excel有数据透视表，python的DataFrame也可以使用pivot_table方法，或者pandas.pivot_table方法来使用。
+
+拿小费的数据集来说吧，你要按照day和smoker分组，然后算分组的平均值，可以直接
+
+```python
+df.pivot_table(index=['day','smoker'])	#会直接返回一个DataFrame对象
+```
+
+![1559460952933](TyporaImg/1559460952933.png)
+
+这里默认汇总后的处理就是均值，现在我们试一下，只想在tip_pct和size上进行聚合，更具time和day分组。我们吧smoker放入列。
+
+```python
+df.pivot_table(values=['tip_pct','size'],index=['time','day'],columns=['smoker'])
+```
+
+![1559461506922](TyporaImg/1559461506922.png)
+
+我们注意这个smoker，这个东西被放到了列，类似与分层索引一样。
+
+- 我们还可以用margins=True来扩充这个表来包含部分总计。这样会出现All的列标签。
+
+  ```python
+  df.pivot_table(values=['tip_pct','size'],index=['time','day'],columns=['smoker'],margins=True)
+  ```
+
+  ![1559461664021](TyporaImg/1559461664021.png)
+
+如果不想求均值，想传递某些函数进去的话，使用aggfunc参数传入就好
+
+```python
+df.pivot_table(['tip_pct'],index=['time','smoker'],columns=['day'],aggfunc=['mean','count'],margins=True)
+```
+
+![1559461886191](TyporaImg/1559461886191.png)
+
+pivot_table的一些选项
+
+| 名称       | 描述                                     |
+| ---------- | ---------------------------------------- |
+| values     | 需要聚合的列名，默认所有列               |
+| index      | 分组的键，类似与groupby的参数            |
+| columns    | 列上进行分组的列名                       |
+| aggfunc    | 使用的聚合函数，默认为mean，可以传入列表 |
+| fill_value | 在结果表中替换缺失值的值                 |
+| dropna     | 丢弃缺失值                               |
+| margins    | 添加小计，行和列的都会                   |
+
+### 交叉表：crosstab
+
+交叉表一般是用来卡方检验的，就是计数，使用pandas.crosstab方法来实现
+
+```python
+pd.crosstab(index=[df.time,df.day],columns=df.smoker,margins=True)
+```
+
+这里注意，这不是对DataFrame对象的方法，所以需要df.time用来调用属性的，不然绝对出错。
