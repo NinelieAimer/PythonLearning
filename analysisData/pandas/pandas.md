@@ -138,7 +138,7 @@ exl=pd.DataFrame(data)	#这个输出会自带索引，就是每行的行号，�
 frame.head()
 ```
 
-要想指定列顺序，在创建表的时候就要主义，columes参数
+要想指定列顺序，在创建表的时候就要注意，columes参数，类似于爬虫里面那个
 
 ```python
 exl=pd.DataFrame(data=data,columns=['year','state','pop'])
@@ -324,7 +324,7 @@ obj=pd.Series(np.arange(5),index=['a','b','c','d','e'])
 #这里复制一个新对象，旧的对象没有变
 new_obj=obj.drop('a')
 
-#如果需要更改元数据，直接
+#如果需要更改原数据，直接
 obj.drop('a',inplace=True)
 ```
 
@@ -524,7 +524,7 @@ frame+series2
 
 ```python
 series3=frame['d']
-frame.sub(series3,axis=0)	#这个就是选择行上进行对齐，然后相除
+frame.sub(series3,axis=0)	#这个就是选择行上进行对齐，然后相除，就是对列进行操作
 ```
 
 ### 函数应用和映射
@@ -603,7 +603,7 @@ frame.sort_index(axis=1,ascending=False)
 
   ![1557406222424](TyporaImg/1557406222424.png)
 
-- ranke()方法是返回这个数字在某一个维度上的排名的方法
+- rank()方法是返回这个数字在某一个维度上的排名的方法
 
   ```python
   frame.rank()

@@ -82,7 +82,7 @@ np.array([[1.1,1.2],[2.1,2.3]],dtype='int32')
 
 ```python
 a=np.array([1,2,3,4])
-a.astype('np.float64')
+a.astype('np.float64')	#这里一定要用np.float64
 ```
 
 > 也可以使用astype来把字符串转化为数字
@@ -92,6 +92,20 @@ arr3=np.array(['1','2','3','4'])
 arr3=arr3.astype(np.string_)
 arr3.astype(np.int64)
 ```
+
+## 数据结构
+
+numpy.ndarry类专门化，*每列*使用不同的数据类型，而且这个类型还可以像切片一样
+
+```python
+dt=np.dtype([
+    ('name','S'),('age','i4'),
+    ('Height','f'),('Children','i4',2)
+])
+s=np.array([('Smith',45,1.83,(0,1))],dtype=dt)	#这里面一定是远元组，我不知道为啥
+```
+
+
 
 ## Numpy的算术
 
@@ -159,6 +173,16 @@ arr2=arr1[:,1:].copy()
 arr2[0]=[5,6]
 arr1
 ```
+
+*其实要避免这个*，可以用copy库中的deepcopy方法
+
+```python
+from copy import deepcopy
+a=1
+b=deepcopy(a)
+```
+
+
 
 ### 索引
 
@@ -238,10 +262,14 @@ arr.T
 ### 一元通用函数
 
 > ​	所谓一元通用函数就是numpy中封装的，可以对**一个**数组进行操作的函数，比如sqrt,exp等等
+>
+> **多用些numpy的方法速度更快**
 
 ```python
 arr=np.arange(10)
 np.sqrt(arr)
+np.sin(arr)
+np.sin(np.pi)
 ```
 
 ### 二元通用函数
@@ -276,7 +304,7 @@ numpy.where(conda,x,y)
 arr=np.random.randn(4,4)
 np.where(arr>0,arr,1)
 
-#这个的意思就是如果arr中元素位置大于0，就用本身不懂，小于等于0的元素全部换成1
+#这个的意思就是如果arr中元素位置大于0，就用本身不动，小于等于0的元素全部换成1
 ```
 
 ### 数学统计方法
@@ -340,7 +368,7 @@ arr1=file['a']
 
 ## 线性代数
 
-> ​	==*这个运算在numpy矩阵里面并不是点乘==，矩阵的点乘需要用dot方法
+> ​	==这个运算在numpy矩阵里面并不是点乘==，矩阵的点乘需要用dot方法
 
 ```python
 arr1.dot(arr2)

@@ -355,7 +355,7 @@ data[(np.abs(data)>3).any(1)]
 
 - split和strip，这个个就不多讲了，就是用来处理普通字串的
 - replace也没什么好说的
-- Index和find函数，这个稍微说一下，index和find都是定位**第一个出现的位置**，但是都细小不同，**find的异常值就会返回-1**。
+- Index和find函数，这个稍微说一下，index和find都是定位**第一个出现的位置**，但是都细小不同，**find的异常值就会返回-1，所以多用find**。
 
 ### 向量化字符串函数
 
@@ -406,7 +406,7 @@ data[(np.abs(data)>3).any(1)]
 | join        | 根据传入的分隔符，将Series整合                               |
 | len         | 长度计算                                                     |
 | lower,upper | 大小写                                                       |
-| match       | 正则的                                                       |
+| match       | 正则的匹配                                                   |
 | pad         | 将空白加入到字符串左右两边                                   |
 | center      | 等价于pad(side='both')                                       |
 | repeat      | 重复值，s.str.repeat(3)，就是把字符串重复三次                |

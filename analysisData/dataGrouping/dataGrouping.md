@@ -321,15 +321,30 @@ df.groupby(['smoker']).apply(top,n=5)
 
 **apply函数现在深入了解之后，参数有这些**：
 
-- function:这个就是传入函数，这个函数第一个参数有讲究，对于普通的要是一列或者一行，对于group对象就是一个DataFrame
-- axis，这个就是选择对行还是对列操作的，**有时候对于行，对填充有帮助**
+- function:这个就是传入函数，这个函数第一个参数有讲究，都是一个dataFrame对象，就是读取方式不同，默认是按照列来读取，axis为1是按照行来读取，在这个groupby分组对象，感觉就是DataFrame对象一整块读取进来的感觉。
+- axis，这个就是选择对行还是对列操作的，**有时候对于行，对填充有帮助，对于行就是axis=1**
 - arg,kwgd:这些就是列表参数，或者是字典，这个会被传入function进行操作。
+
+```
+df=pd.DataFrame(arr,columns=['time','limit'])
+```
+
+![1562142091036](TyporaImg/1562142091036.png)
+
+```python
+def f(x):
+    if x['time']>1:
+        x['limit']=5
+df.apply(func=f,axis=1)
+```
+
+![1562142127444](TyporaImg/1562142127444.png)
 
 ### 压缩分组键
 
 和对象具有分组键作为索引，禁用这个功能就可以用group_keys为False来进行
 
-```
+```python
 df.groupby(['smoker'],group_keys=False).apply(top)
 ```
 
@@ -403,7 +418,7 @@ data.groupby(group_key).apply(fill_na)
 
 > ​	这里主要是想讲解一下Numpy的average函数
 
-```
+```python
 df=pd.DataFrame({
     'category':['a','a','a','a','b','b','b','b'],
     'data':np.random.randn(8),
