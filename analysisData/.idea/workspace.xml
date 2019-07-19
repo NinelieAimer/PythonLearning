@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efe64f6c-0870-428f-9d1d-2fbec666d5fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/speed/speed.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Math&amp;Statistic/TyporaImg/1563262748542.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Math&amp;Statistic/Math&amp;statistic.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Math&amp;Statistic/Math&amp;statistic.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Math&amp;Statistic/Math&amp;statistic.md" beforeDir="false" afterPath="$PROJECT_DIR$/Math&amp;Statistic/Math&amp;statistic.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataGrouping/dataGrouping.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/dataGrouping/dataGrouping.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataRegularization/dataRegularization.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/dataRegularization/dataRegularization.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,10 +36,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/sympy/solvers/solvers.py">
+        <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/matplotlib/pyplot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="2831" column="4" selection-start-line="2831" selection-start-column="4" selection-end-line="2831" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/pandas/core/reshape/concat.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="410">
-              <caret line="478" column="23" lean-forward="true" selection-start-line="478" selection-start-column="23" selection-end-line="478" selection-end-column="24" />
+              <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -231,11 +238,12 @@
       <workItem from="1562650017816" duration="16844000" />
       <workItem from="1562833375377" duration="642000" />
       <workItem from="1563075043108" duration="13860000" />
+      <workItem from="1563257526895" duration="14815000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32626000" />
+    <option name="totallyTimeSpent" value="47441000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -266,7 +274,7 @@
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32786885" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info active="true" anchor="bottom" id="Jupyter" order="13" visible="true" weight="0.13114753" />
+      <window_info active="true" anchor="bottom" id="Jupyter" order="13" visible="true" weight="0.11147541" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -386,22 +394,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60192">
-          <caret line="2785" column="4" selection-start-line="2785" selection-start-column="4" selection-end-line="2785" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/numpy/lib/polynomial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14608">
           <caret line="664" column="4" selection-start-line="664" selection-start-column="4" selection-end-line="664" selection-end-column="4" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/speed/speed.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
     <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/scipy/optimize/optimize.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -433,18 +431,38 @@
     </entry>
     <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/sympy/solvers/solvers.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9526">
+          <caret line="478" column="23" selection-start-line="478" selection-start-column="23" selection-end-line="478" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/py_vollib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/speed/speed.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/pandas/core/reshape/concat.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
-          <caret line="478" column="23" lean-forward="true" selection-start-line="478" selection-start-column="23" selection-end-line="478" selection-end-column="24" />
+          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="2831" column="4" selection-start-line="2831" selection-start-column="4" selection-end-line="2831" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Math&amp;Statistic/Math&amp;statistic.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
   </component>
   <component name="masterDetails">
