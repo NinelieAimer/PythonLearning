@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Review&amp;Test/pydata-book" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/dx" vcs="Git" />
   </component>
 </project>

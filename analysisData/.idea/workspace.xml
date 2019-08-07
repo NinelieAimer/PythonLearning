@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efe64f6c-0870-428f-9d1d-2fbec666d5fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Math&amp;Statistic/TyporaImg/1563262748542.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finance/Finance.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Review&amp;Test/FoodData.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Review&amp;Test/Movies.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Review&amp;Test/baby_name.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/analysisData.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/analysisData.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Math&amp;Statistic/Math&amp;statistic.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Math&amp;Statistic/Math&amp;statistic.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Math&amp;Statistic/Math&amp;statistic.md" beforeDir="false" afterPath="$PROJECT_DIR$/Math&amp;Statistic/Math&amp;statistic.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataGrouping/dataGrouping.md" beforeDir="false" afterPath="$PROJECT_DIR$/dataGrouping/dataGrouping.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pandas/pandas.md" beforeDir="false" afterPath="$PROJECT_DIR$/pandas/pandas.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/speed/speed.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/speed/speed.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,31 +38,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Math&amp;Statistic/Math&amp;statistic.ipynb">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Review&amp;Test/Movies.ipynb">
           <provider selected="true" editor-type-id="jupyter-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/matplotlib/pyplot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="2831" column="4" selection-start-line="2831" selection-start-column="4" selection-end-line="2831" selection-end-column="4" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Review&amp;Test/baby_name.ipynb">
+          <provider selected="true" editor-type-id="jupyter-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/pandas/core/reshape/concat.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/speed/speed.ipynb">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Review&amp;Test/FoodData.ipynb">
           <provider selected="true" editor-type-id="jupyter-editor" />
         </entry>
       </file>
@@ -70,7 +65,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Review&amp;Test/pydata-book" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -90,6 +85,10 @@
         <option value="$PROJECT_DIR$/dataRegularization/dataRegularization.ipynb" />
         <option value="$PROJECT_DIR$/Math&amp;Statistic/Math&amp;statistic.ipynb" />
         <option value="$PROJECT_DIR$/speed/speed.ipynb" />
+        <option value="$PROJECT_DIR$/Finance/Finance.ipynb" />
+        <option value="$PROJECT_DIR$/Review&amp;Test/Movies.ipynb" />
+        <option value="$PROJECT_DIR$/Review&amp;Test/baby_name.ipynb" />
+        <option value="$PROJECT_DIR$/Review&amp;Test/FoodData.ipynb" />
       </list>
     </option>
   </component>
@@ -107,7 +106,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,19 +116,43 @@
             <path>
               <item name="analysisData" type="b2602c69:ProjectViewProjectNode" />
               <item name="analysisData" type="462c0819:PsiDirectoryNode" />
-              <item name="Math&amp;Statistic" type="462c0819:PsiDirectoryNode" />
+              <item name="Review&amp;Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="analysisData" type="b2602c69:ProjectViewProjectNode" />
+              <item name="analysisData" type="462c0819:PsiDirectoryNode" />
+              <item name="Review&amp;Test" type="462c0819:PsiDirectoryNode" />
+              <item name="pydata-book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="analysisData" type="b2602c69:ProjectViewProjectNode" />
+              <item name="analysisData" type="462c0819:PsiDirectoryNode" />
+              <item name="Review&amp;Test" type="462c0819:PsiDirectoryNode" />
+              <item name="pydata-book" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="analysisData" type="b2602c69:ProjectViewProjectNode" />
+              <item name="analysisData" type="462c0819:PsiDirectoryNode" />
+              <item name="Review&amp;Test" type="462c0819:PsiDirectoryNode" />
+              <item name="pydata-book" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+              <item name="usda_food" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowPython Console.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -167,6 +189,28 @@
       <option name="additionalOptions" value="" />
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="analysisData" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -239,11 +283,17 @@
       <workItem from="1562833375377" duration="642000" />
       <workItem from="1563075043108" duration="13860000" />
       <workItem from="1563257526895" duration="14815000" />
+      <workItem from="1563604555520" duration="7392000" />
+      <workItem from="1563613541411" duration="383000" />
+      <workItem from="1563882327741" duration="4332000" />
+      <workItem from="1564902650515" duration="8580000" />
+      <workItem from="1564965048686" duration="6769000" />
+      <workItem from="1565138652700" duration="7234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47441000" />
+    <option name="totallyTimeSpent" value="82131000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -255,10 +305,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2549168" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15582451" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -268,18 +318,19 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32786885" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32840723" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32786885" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32786885" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.46885246" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info active="true" anchor="bottom" id="Jupyter" order="13" visible="true" weight="0.11147541" />
+      <window_info anchor="bottom" id="Jupyter" order="13" visible="true" weight="0.13606557" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
       <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
+      <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="5" side_tool="true" weight="0.17246597" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2473525" />
@@ -309,37 +360,14 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/datetime.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="179" column="12" selection-start-line="179" selection-start-column="12" selection-end-line="179" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/software/anaconda/envs/analysisData/Lib/site-packages/pandas/io/parsers.py" />
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/1946584745/builtins.py" />
-    <entry file="file://E:/software/anaconda/envs/analysisData/Lib/site-packages/pandas/core/reshape/reshape.py" />
-    <entry file="file://$PROJECT_DIR$/pandas/pandas.md" />
-    <entry file="file://E:/software/anaconda/envs/analysisData/Lib/site-packages/pandas/core/generic.py" />
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/1946584745/numpy/random/mtrand.py" />
-    <entry file="file://$PROJECT_DIR$/dataGrouping/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataGrouping/data.ipynb" />
     <entry file="file://E:/software/anaconda/Lib/site-packages/pandas/core/reshape/tile.py" />
     <entry file="file://E:/software/anaconda/Lib/site-packages/pandas/core/frame.py" />
     <entry file="file://E:/software/anaconda/Lib/site-packages/pandas/core/reshape/pivot.py" />
     <entry file="file://$PROJECT_DIR$/read_files/read_files.ipynb" />
-    <entry file="file://$PROJECT_DIR$/Review&amp;Test/test-1.ipynb" />
     <entry file="file://$PROJECT_DIR$/Numpy/Numpy.md" />
     <entry file="file://E:/software/anaconda/envs/data/Lib/site-packages/matplotlib/pyplot.py" />
     <entry file="file://E:/software/anaconda/envs/data/Lib/site-packages/matplotlib/axes/_axes.py" />
     <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/354929325/numpy/random/mtrand.py" />
-    <entry file="file://$PROJECT_DIR$/dataCleaning/dataCleaning.ipynb" />
     <entry file="file://$PROJECT_DIR$/dataGrouping/dataGrouping.md" />
     <entry file="file://$PROJECT_DIR$/visualization/visualization.ipynb" />
     <entry file="file://E:/software/anaconda/envs/data/Lib/site-packages/pandas/core/frame.py" />
@@ -439,13 +467,18 @@
     <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/py_vollib/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/speed/speed.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
     <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/pandas/core/reshape/concat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
+        <state relative-caret-position="594">
           <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Finance/Finance.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -456,12 +489,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/speed/speed.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/scipy/optimize/_minimize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/numpy/core/function_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataCleaning/dataCleaning.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Math&amp;Statistic/Math&amp;statistic.ipynb">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataCleaning/dataCleaning.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/pulp/pulp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36102">
+          <caret line="1650" column="8" selection-start-line="1650" selection-start-column="8" selection-end-line="1650" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Finance/Finance.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Review&amp;Test/test-1.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/pandas/io/parsers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="717" selection-start-line="717" selection-end-line="717" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Review&amp;Test/pydata-book/datasets/movielens/ratings.dat">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="5751" column="8" selection-start-line="5751" selection-start-column="8" selection-end-line="5751" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="7513" column="8" selection-start-line="7513" selection-start-column="8" selection-end-line="7513" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Review&amp;Test/Movies.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Review&amp;Test/baby_name.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Review&amp;Test/pydata-book/datasets/usda_food/database.json">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Review&amp;Test/FoodData.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
   </component>

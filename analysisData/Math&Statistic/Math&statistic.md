@@ -80,6 +80,7 @@ False	#返回False，说明拟合效果还不是很好
 当然还有更好的选择，就是用statsmodel进行操作。
 
 ```python
+x=sm.add_contant(x)	#这个是把x转化未有截距的东西，就是能够有aphla
 model=sm.OLS(y,x).fit()
 model.summary()
 ```
@@ -247,7 +248,7 @@ def Eu(z):
     return -(0.5*np.sqrt(s*15+b*5)+0.5*np.sqrt(s*5+b*12))
 ```
 
-- 我们介绍一下minimize这个函数，第一个参数func不讲；第二个参数x0是估测值的范围；method这个参数是使用什么求解器，即使用什么算法进行求解，因为金融多半是多变量的，而且是很多边界，等式和不等式，所以一般都用**SLSQP**，所以后面的参数就是仅仅对于SLSQP方法才有的了。bounds参数，这个参数就是一个范围参数，一定要传入**tuple**，如果是二元的，就看例子；constraints这个是对于不等式和等式的参数，**注意等式时候，要把等式转化为等于0，不等式的时候要把不等式转化为大于0**
+- 我们介绍一下minimize这个函数，第一个参数func不讲；第二个参数x0是估测值，是指的函数输入参数的初始值，估测值；method这个参数是使用什么求解器，即使用什么算法进行求解，因为金融多半是多变量的，而且是很多边界，等式和不等式，所以一般都用**SLSQP**，所以后面的参数就是仅仅对于SLSQP方法才有的了。bounds参数，这个参数就是一个范围参数，一定要传入**tuple**，如果是二元的，就看例子；constraints这个是对于不等式和等式的参数，**注意等式时候，要把等式转化为等于0，不等式的时候要把不等式转化为大于0**
 
 ```python
 #%%
@@ -256,7 +257,7 @@ def Eu(z):
     return -(0.5*np.sqrt(s*15+b*5)+0.5*np.sqrt(s*5+b*12))
 
 #%%
-cons=[{'type':'ineq','fun':lambda z:100-z[0]*10-z[1]*10}]	#这个就是字典列表
+cons=[{'type':'ineq','fun':lambda z:100-z[0]*10-z[1]*10}]	#这个就是字典列表,一个不等式或者一个等式一个字典，里面两个参数，一个是type,一个是fun
 bnds=((0,1000),(0,1000))	#这里要这样定义范围
 
 #%%
@@ -276,6 +277,70 @@ result
   status: 0
  success: True
        x: array([8.02547122, 1.97452878])
+```
+
+
+
+这个例子不够，我们再来一个例子
+
+```python
+def statistics(weights,time,df):
+    '''
+    Use params to calculate the best weights
+    :param weights: weights for every assets
+    :param time: 
+    :param df: return rate
+    :return: rate
+    '''
+    weights=np.array(weights)
+    pret=np.sum(df.mean()*weights)*time
+    pvol=np.sqrt(np.dot(weights.T,np.dot(df.cov()*time,weights)))
+    return np.array([pret,pvol,pret/pvol])
+#%%
+import scipy.optimize as sco
+
+#%%
+def min_func_sharpe(weights,time,df):
+    return -statistics(weights,time,df)[2]
+#%%
+bnds=tuple((0,1) for x in range(4))
+cons=({'type':'eq','fun':lambda x:np.sum(x)-1})
+#%%
+opts=sco.minimize(fun=min_func_sharpe,x0=[0.25,0.25,0.25,0.25],method='SLSQP',args=(559,df_RATE),bounds=bnds,constraints=cons)
+```
+
+通过这个例子，我们可以更加深入理解这个问题，首先是，**我们的优化仅仅是对函数的第一个参数进行优化**，第一个参数可以是一个元组，数组等等，我们的**constraints里面构造的函数中的参数是仅针对我们第一个参数进行**的。然后后面的**参数要通过args参数进行传入**。
+
+****
+
+**我们还可以使用pulp库进行约束优化，下面做个演示**
+
+例子：
+
+我们考虑两种证券X和Y，试求$3x+2y$的最大值，限制条件如下
+
+- 2倍的X证券数量与投资Y证券数量不超过90
+- 投资X证券数量与投资Y证券数量之和不超过80
+- 投资X数量不超过40
+- 不能卖空
+
+```python
+x=pulp.LpVariable('x',lowBound=0,upBound=40)	#初始化变量，下限和上限
+y=pulp.LpVariable('y',lowBound=0)
+
+#初始化problem,第一个name是这个模型的描述，第二个sense是选择求最大还是最小值
+problem=pulp.LpProblem(name='A simple model with 2 variables',sense=pulp.LpMaximize)
+
+problem+=3*x+2*y,'The objective function'
+problem+=x+y<=80,'1st constraint'
+problem+=2*x+y<=100,'2nd constraint'
+stats=problem.solve()	'solve the problem'
+
+problem   'output the result'
+
+#see the result variables
+pulp.value(x)
+pulp.value(y)
 ```
 
 
@@ -432,140 +497,5 @@ plt.grid(True)
 
 
 
-## 估值
 
-> ​	各种股指都是我们金融过程中的一些非常重要的问题，使用蒙特卡洛模拟可以解决一些估值问题
-
-### 欧式期权
-
-欧式看涨期权到期日收益可以通过公式$h(S_{T})=\max (S_{T}-K,0)$来得出，道理都懂的，其实就是行权的收益而已。在一个完全市场中，这种权证的价格由下面公式表示
-$$
-C_{0}=e^{-rT}E_{0}^{Q}(h(S_{T}))=e^{-rT}\int_{0}^{\infty}h(s)q(s)ds
-$$
-
-### 美式期权
-
-## 风险测度
-
-### 风险价值
-
-风险价值（VaR）使用最典型的过程，可以得到30日内的模拟，收益率。然后使用直方图表示出来。
-
-```python
-S0=100
-r=0.05
-sigma=0.25
-T=30/365
-I=10000
-ST=S0*np.exp((r-0.5*sigma**2)*T
-             +sigma*np.sqrt(T)*np.random.standard_normal(I))
-R_gbm=np.sort(ST-S0)
-plt.hist(R_gbm,bins=50)
-plt.xlabel('absolute return')
-plt.ylabel('frequency')
-plt.grid(True)
-```
-
-![1563358326883](D:\learning\PythonLearning\analysisData\Math&Statistic\TyporaImg\1563358326883.png)
-
-## 投资组合优化
-
-直接上例子吧
-
-```python
-import tushare as ts
-
-#%%初始化接口
-pro=ts.pro_api('9526a2198c86fb0a72fa552f74ba1140033871f755dcd769e3134b7b')
-
-#%%这里是得到数据
-df_PA=pro.daily(ts_code='601318.SH',start_date='20180101',end_date='20190716')
-df_ZX=pro.daily(ts_code='600030.SH',start_date='20180101',end_date='20190716')
-df_TX=pro.daily(ts_code='600776.SH',start_date='20180101',end_date='20190716')
-df_MT=pro.daily(ts_code='600519.SH',start_date='20180101',end_date='20190716')
-
-#%%定义函数，生成总表
-def set_date(x):
-    x['trade_date']=pd.to_datetime(x['trade_date'])
-    x.set_index('trade_date',inplace=True)
-    return x['close']
-
-#%%生成总表
-df=pd.concat([set_date(df_PA),set_date(df_ZX),set_date(df_TX),set_date(df_MT)],keys=['df_PA','df_ZX','df_TX','df_MT'],axis=1)
-
-#%%设置函数，用时间设置为索引
-def sort_date(x):
-    for i in x:
-        i.sort_index(ascending=True,inplace=True)
-
-#%%
-sort_date([df_MT,df_TX,df_ZX])
-
-#%%求出收益率每天的
-def rate(x):
-    for i in x:
-        df[i+'_RATE']=df[i]/df[i].shift(1)-1
-#%%
-rate(['df_PA','df_TX','df_ZX','df_MT'])
-
-#%%得到收益率表
-df_RATE=df[['df_PA_RATE','df_TX_RATE','df_ZX_RATE','df_MT_RATE']]
-```
-
-下面我们假定不允许空头，我们将分配不同权重到4种证券上，我们先生成4个随机数，使其相加为1，这里有个技巧，先生成四个随机数，然后再用四个分别除以四个总和就好
-
-```python
-weights=np.random.random(4)
-weights/=np.sum(weights)
-```
-
-然后就是公式了，我们收益率公式就不用多说，就是
-$$
-\mu=E\biggl(\sum_{I}w_{i}r_{i}\biggm)
-$$
-直接使用下面代码就可以求出年收益
-
-```python
-np.sum(df_RATE.mean()*weights)*559
-```
-
-最难的是方差我们先可以得出方差矩阵，然后公式是
-$$
-\sigma^2=\sum\sum w_{i}w_{j}\sigma_{ij}
-$$
-我们要使用矩阵计算来进行，使用如下公式
-
-```python
-np.dot(np.dot(df_RATE.cov()*559,weights),weights.T)
-```
-
-就可以求出组合的方差，然后我们算组合的标准差直接开根号就行了。我们用这个方法来模拟，可以画出边界线
-
-```python
-prets=[]
-pvols=[]
-for i in range(2500):
-    weights=np.random.random(4)
-    weights/=np.sum(weights)
-    prets.append(np.sum(df_RATE.mean()*weights)*559)
-    pvols.append(np.sqrt(np.dot(weights.T,np.dot(df_RATE.cov()*559,weights))))
-
-prets=np.array(prets)
-pvols=np.array(pvols)
-```
-
-这就求出对应的收益和风险标准差，然后作图
-
-```python
-plt.figure(figsize=(8,4))
-plt.scatter(pvols,prets,c=prets/pvols,marker='o')
-plt.grid(True)
-plt.xlabel('volatitlity')
-plt.ylabel('return')
-plt.colorbar(label='Sharpe ratio')
-```
-
-![1563439699489](D:\learning\PythonLearning\analysisData\Math&Statistic\TyporaImg\1563439699489.png)
-
-因为我这些股票平均收益率都是正的，所以我们没有负数，然后可以明显看到边界线
 

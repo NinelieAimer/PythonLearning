@@ -200,6 +200,16 @@ data={
 exl=pd.DataFrame(data)	#会有空值，因为索引不一样
 ```
 
+- 当使用字典列表的时候，我们可以指定一个，需要提取的字段列表，直接提取里面的相应东西，例子
+
+  ```python
+  #这里的info是一个非常大的字典列表
+  info_keys=['description','group','id','manufacturer']
+  info=pd.DataFrame(db,columns=info_keys)
+  ```
+
+  
+
 ==类似numpy==，可以使用，arr.T这种方法来转置。
 
 ```python
@@ -410,6 +420,10 @@ dtype: int32
     ```
 
     
+    
+  - loc这类选择方法，**只能选择两层**，不能多层，多层只能多加一个loc
+
+  - Loc是从索引开始选择，如果不选择索引**请用:代替这一个**，然后再选择
 
 - iloc
 
