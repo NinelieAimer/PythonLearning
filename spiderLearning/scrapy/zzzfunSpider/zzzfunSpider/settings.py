@@ -1,32 +1,39 @@
 # -*- coding: utf-8 -*-
-# Scrapy settings for jufeLogin project
+from shutil import which
+
+
+SELENIUM_DRIVER_NAME = 'chrome'
+SELENIUM_DRIVER_EXECUTABLE_PATH = which('chromedriver')
+SELENIUM_DRIVER_ARGUMENTS=[]  # '--headless' if using chrome instead of firefox
+
+# Scrapy settings for zzzfunSpider project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
 #
-#     http://doc.scrapy.org/en/latest/topics/settings.html
-#     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
-#     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
+#     https://doc.scrapy.org/en/latest/topics/settings.html
+#     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
+#     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'jufeLogin'
+BOT_NAME = 'zzzfunSpider'
 
-SPIDER_MODULES = ['jufeLogin.spiders']
-NEWSPIDER_MODULE = 'jufeLogin.spiders'
+SPIDER_MODULES = ['zzzfunSpider.spiders']
+NEWSPIDER_MODULE = 'zzzfunSpider.spiders'
 
+#输入需要爬取动漫的名称
+NAME='出包王女'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'jufeLogin (+http://www.yourdomain.com)'
+#USER_AGENT = 'zzzfunSpider (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
-
-
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 
 # Configure a delay for requests for the same website (default: 0)
-# See http://scrapy.readthedocs.org/en/latest/topics/settings.html#download-delay
+# See https://doc.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
 #DOWNLOAD_DELAY = 3
 # The download delay setting will honor only one of:
@@ -46,31 +53,36 @@ COOKIES_ENABLED = True
 #}
 
 # Enable or disable spider middlewares
-# See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
-#SPIDER_MIDDLEWARES = {
-#    'jufeLogin.middlewares.JufeloginSpiderMiddleware': 543,
-#}
+# See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
+# SPIDER_MIDDLEWARES = {
+#    'zzzfunSpider.middlewares.zzzfunMiddleware': 543,
+# }
 
 # Enable or disable downloader middlewares
-# See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
+# See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-   'jufeLogin.middlewares.RandomUserAgentMiddleware': 543,
+   'scrapy_selenium.SeleniumMiddleware': 800,
+   'zzzfunSpider.middlewares.zzzfunMiddleware':543
 }
 
+FILES_STORE = 'zzzfunSpider/{}'.format(NAME)
+
 # Enable or disable extensions
-# See http://scrapy.readthedocs.org/en/latest/topics/extensions.html
+# See https://doc.scrapy.org/en/latest/topics/extensions.html
 #EXTENSIONS = {
 #    'scrapy.extensions.telnet.TelnetConsole': None,
 #}
 
 # Configure item pipelines
-# See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'jufeLogin.pipelines.JufeloginPipeline': 300,
-#}
-
+# See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
+ITEM_PIPELINES = {
+   'zzzfunSpider.pipelines.ZzzfunspiderPipeline': 300,
+}
+DOWNLOAD_MAXSIZE=1073741824
+DOWNLOAD_TIMEOUT= 100000
+DOWNLOAD_WARNSIZE=0
 # Enable and configure the AutoThrottle extension (disabled by default)
-# See http://doc.scrapy.org/en/latest/topics/autothrottle.html
+# See https://doc.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True
 # The initial download delay
 #AUTOTHROTTLE_START_DELAY = 5
@@ -83,10 +95,9 @@ DOWNLOADER_MIDDLEWARES = {
 #AUTOTHROTTLE_DEBUG = False
 
 # Enable and configure HTTP caching (disabled by default)
-# See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings
+# See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings
 #HTTPCACHE_ENABLED = True
 #HTTPCACHE_EXPIRATION_SECS = 0
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
-

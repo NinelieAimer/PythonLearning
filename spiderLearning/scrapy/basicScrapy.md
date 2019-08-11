@@ -222,6 +222,18 @@ settings中需要设置储存路劲
 FILES_STORE ='[PATH]'
 ```
 
+- **还有几点要提一下，再用download时候有一个DOWNLOAD_WARNSIZE，这个会限制你文件下载大小，如果下大文件建议改成0，就是禁用，然后DOWNLOAD_MAXSIZE这个也会限制最大文件，默认1G，可以考虑停掉用0.**
+- file_path()
+
+file_path()方法主要是用来重命名你下载的文件和进行路径选择的，但是要记住，不能用item_completed方法，因为判断时候，会被扔掉
+
+```python
+    def file_path(self, request, response=None, info=None):
+        
+        #这里会在FILE SOTRE子文件夹中创建
+        return '{}/{}.mp4'.format(request.meta['season'],request.meta['name'])
+```
+
 
 
 ## 保存到Json文件的pipeline的写法
@@ -424,6 +436,39 @@ custom_settings={
   #这样就可以获得原来的cookies,然后利用meta参数，把cookie传进去。
   ```
 
+## 利用scrapy-selenium库将selenium集成到scapy
+
+> 使用scrapy-selenium就不需要再middleware里面进行繁琐的操作就可以简单集成。
+
+- 首先再spider中import
+
+```python
+from scrapy_selenium import SeleniumRequest
+```
+
+- 然后要记得再setting里面进行设置，**注意SELENIUM_DRIVER_ARGUMENTS一定要是一个可迭代对象，你就算不设置任何参数，也要给我放一个空列表在那**
+
+```python
+from shutil import which
+
+SELENIUM_DRIVER_NAME = 'chrome'	#这里是个名字，但是重要，一定要小写chrome
+
+#首先要将chromedriver.exe加入环境变量，然后用which使用而已
+SELENIUM_DRIVER_EXECUTABLE_PATH = which('chromedriver')	
+
+#
+SELENIUM_DRIVER_ARGUMENTS=[]  # '--headless' if using chrome instead of firefox
+
+DOWNLOADER_MIDDLEWARES = {
+   'scrapy_selenium.SeleniumMiddleware': 800,	#这样打开middleware
+}
+```
+
+- 最后只要再spider里面请求就好，使用SeleniumRequest，里面参数主要又url，callback这种常见的，**还可以用wait_time和wait_until**
+
+```python
+yield SeleniumRequest(url=url,callback=self.get_download，wait_time=5)
+```
 
 ## 暂停重重启spider
 

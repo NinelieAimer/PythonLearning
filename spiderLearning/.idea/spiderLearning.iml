@@ -5,8 +5,9 @@
       <sourceFolder url="file://$MODULE_DIR$/scrapy/jufeLogin" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/scrapy/jufeLogin/jufeLogin/spiders" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/scrapy/animeImage" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/scrapy/zzzfunSpider" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.6 (spiderLearning) (1)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.7 (spiderLearning)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">
