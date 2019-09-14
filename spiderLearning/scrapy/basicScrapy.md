@@ -335,7 +335,7 @@ item_loader=Article_loader(item=ArticleItem(),response=response)
 
 #接下来就是提取过程，参数第一个就是field的名字，第二个就是选择器
 item_loader.add_xpath('title','//h1/t
-                      ext()')
+                      text()')
 item_loader.add_css('date','.entry-meta-hide-on-mobile::text')
 item_loader.add_value('front_image_url',response.meta.get('front_image',""))
 

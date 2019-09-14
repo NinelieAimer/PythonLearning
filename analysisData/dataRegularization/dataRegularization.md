@@ -84,7 +84,21 @@
 
   ![1557905017686](C:\Users\57206\AppData\Roaming\Typora\typora-user-images\1557905017686.png)
 
-### 重排序和层级排序
+- ==**分层索引选择**==
+
+  > ​	分层索引的选择比较麻烦，一层一层容易出错，所以我们引入Pands的IndexSlice对象
+
+```python
+idx=pd.IndexSlice	#引入对象
+
+#这一步很关键，Loc，我们当他，第一个逗号选择索引，第二个逗号选择列
+#然后再列中有多层，所以我们使用idx对象，一个逗号一层选择，很方便
+df.loc[:,idx[['tcl','zx'],'open':'close']]
+```
+
+
+
+###	重排序和层级排序
 
 - 对层级进行排序使用swaplevel接收两个层级的序号或者层级名称，**返回新对象，原来的不变**
 
@@ -136,7 +150,7 @@ frame.set_index(['c','d'])
 
 ![1557910548664](C:\Users\57206\AppData\Roaming\Typora\typora-user-images\1557910548664.png)
 
-- 默认情况下，会丢弃这两列，要想不丢弃就要用参数drop设置为False
+- 默认情况下，会丢弃这两列，要想不丢弃就要用参数drop设置为False，**这里要设置inplace为True**
 
   ```python
   frame.set_index(['c','d'],drop=False)

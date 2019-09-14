@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efe64f6c-0870-428f-9d1d-2fbec666d5fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Review&amp;Test/select.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spiderLearning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spiderLearning/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spiderLearning/scrapy/basicScrapy.md" beforeDir="false" afterPath="$PROJECT_DIR$/../spiderLearning/scrapy/basicScrapy.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spiderLearning/scrapy/zzzfunSpider/zzzfunSpider/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../spiderLearning/scrapy/zzzfunSpider/zzzfunSpider/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,13 +28,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Review&amp;Test/select.ipynb">
-          <provider selected="true" editor-type-id="jupyter-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -82,7 +78,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -114,7 +110,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowPython Console.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spiderLearning" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dataCleaning" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -255,11 +251,16 @@
       <workItem from="1565138652700" duration="7987000" />
       <workItem from="1565160673352" duration="2722000" />
       <workItem from="1565404663557" duration="77000" />
+      <workItem from="1565595678211" duration="596000" />
+      <workItem from="1565766065503" duration="61000" />
+      <workItem from="1567906559865" duration="66000" />
+      <workItem from="1567906661070" duration="16000" />
+      <workItem from="1567906697313" duration="23000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85683000" />
+    <option name="totallyTimeSpent" value="86445000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -273,7 +274,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1603631" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16944024" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -295,7 +296,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
       <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
-      <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="5" side_tool="true" weight="0.17246597" />
+      <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="5" side_tool="true" visible="true" weight="0.17246597" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2473525" />
@@ -325,7 +326,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/software/anaconda/Lib/site-packages/pandas/core/reshape/pivot.py" />
     <entry file="file://$PROJECT_DIR$/read_files/read_files.ipynb" />
     <entry file="file://$PROJECT_DIR$/Numpy/Numpy.md" />
     <entry file="file://E:/software/anaconda/envs/data/Lib/site-packages/matplotlib/pyplot.py" />
@@ -526,9 +526,6 @@
     <entry file="file://$PROJECT_DIR$/Review&amp;Test/pydata-book/datasets/fec/P00000001-ALL.csv">
       <provider selected="true" editor-type-id="LargeFileEditor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Review&amp;Test/select.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
     <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/pandas/core/frame.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128414">
@@ -542,6 +539,12 @@
           <caret line="709" selection-start-line="709" selection-end-line="709" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Review&amp;Test/select.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

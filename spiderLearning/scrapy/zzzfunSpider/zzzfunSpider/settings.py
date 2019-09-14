@@ -21,7 +21,7 @@ SPIDER_MODULES = ['zzzfunSpider.spiders']
 NEWSPIDER_MODULE = 'zzzfunSpider.spiders'
 
 #输入需要爬取动漫的名称
-NAME='出包王女'
+NAME='秋色之空'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'zzzfunSpider (+http://www.yourdomain.com)'
