@@ -552,3 +552,6 @@ ip = html('p').text()
 request.meta['proxy']='http://'+ip
 ```
 
+## JSONRequest
+
+JSONRequest是新出的一个包，因为有时候你post并不是post字典或者表格，他接受的是json格式，所以这个时候就要用JSONRequest，里面的data传入字典，他会默认将你字典转化成json进行Post，非常好用

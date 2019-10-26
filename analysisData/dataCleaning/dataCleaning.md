@@ -314,12 +314,14 @@ data[(np.abs(data)>3).any(1)]
 
 - 有时候一列我们想把它设为标志，一般都是用来做关联分析的，设置为1，0变量，**这样就可以使用get_dummies方法**
 
+- 这里有个要注意的地方，如果你需要把多个列设置为标志，data必须要是一个DataFrame，所以我们如果切片传入就需要加双[[]]，这样才可以成功
+
   ```python
   #这个是将df['key']中的东西设置为列，然后前缀用key做,prefix是前缀的意思
   df2=pd.get_dummies(df['key'],prefix='key')
   
   #拼和两张表
-  df_with_dummy=df[['data']].join(df2)
+  df_with_dummy=df[['data']].join(df2)	
   ```
 
 - 但是大部分情况都是，一般这些东西都是挤在一个单元格中，需要特殊处理
@@ -348,6 +350,24 @@ data[(np.abs(data)>3).any(1)]
   df=df.join(tem_data.add_prefix('Genre_'))
   
   ```
+
+- 与get_dummies相对的东西就是**melt**，这个东西是将列上的东西，放到行上来，按照行上关键词，然后将列堆叠进来，然后value新生成一列，直接上代码，说不是很清楚，有表
+
+  - ![1571300245805](D:\learning\PythonLearning\analysisData\dataCleaning\TyporaImg\1571300245805.png)
+
+  - ```python
+    new=pd.melt(frame=df,id_vars=['class'],value_vars=['nachang','beijing'],var_name='location',value_name='price')
+    ```
+
+    - frame：需要进行操作表格
+    - id_vars：以什么为标准进行合并，这个就是行，不会变，但是会重复
+    - value_vars：把列表的列名，需要放到行的东西放进来
+    - var_name：对放到行的列进行命名
+    - value_name：并进来会有value，就是行和列决定的，这个会新生成一列，然后对这个列进行命名
+
+  - ![1571300601901](D:\learning\PythonLearning\analysisData\dataCleaning\TyporaImg\1571300601901.png)
+
+  
 
 ## 字符串操作
 
@@ -416,3 +436,10 @@ data[(np.abs(data)>3).any(1)]
 | rstrip      | 去右边                                                       |
 | lstrip      | 去左边                                                       |
 
+- **字符串可以直接切片**
+
+  - ```python
+    new_file.iloc[:,0].str[:7]	#这里直接切片，对这一列所有的字符串进行切片了
+    ```
+
+    

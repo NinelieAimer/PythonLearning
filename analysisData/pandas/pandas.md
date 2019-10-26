@@ -119,6 +119,22 @@ Name: population, dtype: float64
 ===
 ```
 
+**这里插一个重要的方法，在某些时候，我们需要将series对象转化为frame对象，这时候需要用to_frame方法**
+
+```python
+const   -19.314996
+sqrft     0.128436
+bdrms    15.198191
+dtype: float64
+
+#这是一个series，如果我们将其转化为frame就
+beta.to_frame()
+```
+
+![1571301699231](D:\learning\PythonLearning\analysisData\pandas\TyporaImg\1571301699231.png)
+
+**如果想变成一行，直接转置就好，而且索引就会变成列名**
+
 ### DataFrame
 
 > ​	这个就是二维数据的处理方法
@@ -540,6 +556,8 @@ frame+series2
 series3=frame['d']
 frame.sub(series3,axis=0)	#这个就是选择行上进行对齐，然后相除，就是对列进行操作
 ```
+
+==**在列上进行操作，要不用这个方法，要不就直接用apply方法，因为经常记不住，所以我经常用apply方法**==
 
 ### 函数应用和映射
 

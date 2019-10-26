@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ec6a36f-cd21-4959-a7d5-23d6ac4d1d62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/share owners.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corr.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/future.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salary.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spiderLearning/scrapy/future/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spiderLearning/scrapy/future/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dataCleaning/dataCleaning.md" beforeDir="false" afterPath="$PROJECT_DIR$/../dataCleaning/dataCleaning.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../speed/speed.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../speed/speed.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../venv/pyvenv.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spiderLearning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spiderLearning/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share owners.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/share owners.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../spiderLearning/scrapy/basicScrapy.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../spiderLearning/scrapy/basicScrapy.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spiderLearning/scrapy/zzzfunSpider/zzzfunSpider/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../spiderLearning/scrapy/zzzfunSpider/zzzfunSpider/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,30 +22,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/salary.ipynb">
+          <provider selected="true" editor-type-id="jupyter-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/share owners.ipynb">
+        <entry file="file://$PROJECT_DIR$/future.ipynb">
           <provider selected="true" editor-type-id="jupyter-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baby_name.ipynb">
-          <provider selected="true" editor-type-id="jupyter-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/datetime.pyi">
+        <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/pandas/core/reshape/merge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-285">
-              <caret line="193" column="12" selection-start-line="193" selection-start-column="12" selection-end-line="193" selection-end-column="12" />
+            <state relative-caret-position="198">
+              <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/pandas/core/frame.py">
+        <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/pandas/core/generic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="4737" column="8" selection-start-line="4737" selection-start-column="8" selection-end-line="4737" selection-end-column="8" />
+            <state relative-caret-position="181104">
+              <caret line="8281" column="8" selection-start-line="8281" selection-start-column="8" selection-end-line="8281" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/pandas/io/excel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6226">
+              <caret line="310" column="4" selection-start-line="310" selection-start-column="4" selection-end-line="310" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -53,8 +64,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -66,20 +77,14 @@
       <list>
         <option value="$PROJECT_DIR$/share owner.py" />
         <option value="$PROJECT_DIR$/share owners.ipynb" />
+        <option value="$PROJECT_DIR$/salary.ipynb" />
+        <option value="$PROJECT_DIR$/future.ipynb" />
+        <option value="$PROJECT_DIR$/corr.ipynb" />
+        <option value="$PROJECT_DIR$/test2.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/Review&amp;Test.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="662" />
     <option name="y" value="171" />
     <option name="width" value="697" />
@@ -106,11 +111,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../RPPP" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -124,6 +130,35 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Review&amp;Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test2" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -135,23 +170,33 @@
       <option name="presentableId" value="Default" />
       <updated>1567906787505</updated>
       <workItem from="1567906788708" duration="4932000" />
-      <workItem from="1568249359282" duration="6269000" />
+      <workItem from="1568249359282" duration="13930000" />
+      <workItem from="1568899510261" duration="4227000" />
+      <workItem from="1569037976649" duration="5983000" />
+      <workItem from="1569246706339" duration="1410000" />
+      <workItem from="1569248705850" duration="2781000" />
+      <workItem from="1569331944599" duration="1493000" />
+      <workItem from="1569504480447" duration="7147000" />
+      <workItem from="1570698266763" duration="91000" />
+      <workItem from="1570698401037" duration="657000" />
+      <workItem from="1570699126818" duration="1675000" />
+      <workItem from="1570793259916" duration="2269000" />
+      <workItem from="1570803903793" duration="27000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11201000" />
+    <option name="totallyTimeSpent" value="46622000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.022692889" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18683812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -160,26 +205,24 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Jupyter" order="11" visible="true" weight="0.04918033" />
+      <window_info anchor="bottom" id="Jupyter" order="11" visible="true" weight="0.28196722" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.11043873" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Review_Test$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1570698943075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/share owner.py" />
-    <entry file="file://$PROJECT_DIR$/DRUG.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-462" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/select.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
@@ -206,7 +249,71 @@
     <entry file="file://$PROJECT_DIR$/baby_name.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/DRUG.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60192">
+          <caret line="2785" column="4" selection-start-line="2785" selection-start-column="4" selection-end-line="2785" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/statsmodels/regression/linear_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17908">
+          <caret line="834" column="8" selection-start-line="834" selection-start-column="8" selection-end-line="834" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/seaborn/regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="535" column="36" selection-start-line="535" selection-start-column="36" selection-end-line="535" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/seaborn/relational.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3666">
+          <caret line="1076" column="25" selection-start-line="1076" selection-start-column="25" selection-end-line="1076" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/share owners.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/corr.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/salary.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/pandas/core/reshape/merge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181104">
+          <caret line="8281" column="8" selection-start-line="8281" selection-start-column="8" selection-end-line="8281" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/pandas/io/excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6226">
+          <caret line="310" column="4" selection-start-line="310" selection-start-column="4" selection-end-line="310" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/future.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
   </component>

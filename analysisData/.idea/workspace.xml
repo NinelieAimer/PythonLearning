@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efe64f6c-0870-428f-9d1d-2fbec666d5fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Review&amp;Test/salary.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spiderLearning/scrapy/future/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spiderLearning/scrapy/future/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spiderLearning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spiderLearning/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Review&amp;Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Review&amp;Test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Review&amp;Test/share owners.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Review&amp;Test/share owners.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spiderLearning/scrapy/basicScrapy.md" beforeDir="false" afterPath="$PROJECT_DIR$/../spiderLearning/scrapy/basicScrapy.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spiderLearning/scrapy/zzzfunSpider/zzzfunSpider/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../spiderLearning/scrapy/zzzfunSpider/zzzfunSpider/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +31,13 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Review&amp;Test/share owners.ipynb">
+          <provider selected="true" editor-type-id="jupyter-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -83,6 +92,15 @@
     </navigator>
     <panes>
       <pane id="Scope">
+        <subPane subId="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="analysisData" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\learning\PythonLearning\analysisData" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
@@ -110,9 +128,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowPython Console.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dataCleaning" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Review&amp;Test" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -256,11 +274,13 @@
       <workItem from="1567906559865" duration="66000" />
       <workItem from="1567906661070" duration="16000" />
       <workItem from="1567906697313" duration="23000" />
+      <workItem from="1569037674717" duration="45000" />
+      <workItem from="1569037859993" duration="105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86445000" />
+    <option name="totallyTimeSpent" value="86595000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -274,7 +294,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16944024" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17397882" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -326,7 +346,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/read_files/read_files.ipynb" />
     <entry file="file://$PROJECT_DIR$/Numpy/Numpy.md" />
     <entry file="file://E:/software/anaconda/envs/data/Lib/site-packages/matplotlib/pyplot.py" />
     <entry file="file://E:/software/anaconda/envs/data/Lib/site-packages/matplotlib/axes/_axes.py" />
@@ -452,9 +471,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/speed/speed.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/speed/speed.ipynb" />
     <entry file="file://D:/software/Anaconda/envs/data/Lib/site-packages/scipy/optimize/_minimize.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -545,6 +562,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Review&amp;Test/share owners.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
   </component>
   <component name="masterDetails">
