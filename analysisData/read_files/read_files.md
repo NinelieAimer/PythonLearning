@@ -69,4 +69,71 @@
   frame.to_excel('fjlaskjfljak/dfa.xlsx')
   ```
 
-  
+
+## 关于Excel写入操作
+
+- 如果写入时候不想把DataFrame中的索引带进来，使用`index=False`**就可以取消前面索引**
+
+- 如果你想把多个表写到同一个excel中，只是分**sheet**，可以如下操作
+
+  - ```python
+    writer=pd.WriterExcel('test.xlsx')	#初始化一个写Excel对象
+    
+    #将两个不同的DataFrame存入同一个Excel的不同sheet
+    temp1.to_excel(writer,sheet_name='data1',index=False)
+    temp2.to_excel(writer,sheet_name='data2',index=False)
+    ```
+
+## 关于PDF的读写
+
+> ​	很多时候我们要将PDF的东西读取出来，这个时候就需要用pdfminer3了，具体源码如下
+
+```python
+from pdfminer3.layout import LAParams, LTTextBox
+from pdfminer3.pdfpage import PDFPage
+from pdfminer3.pdfinterp import PDFResourceManager
+from pdfminer3.pdfinterp import PDFPageInterpreter
+from pdfminer3.converter import PDFPageAggregator
+from pdfminer3.converter import TextConverter
+import io
+
+resource_manager = PDFResourceManager()
+fake_file_handle = io.StringIO()
+converter = TextConverter(resource_manager, fake_file_handle)
+page_interpreter = PDFPageInterpreter(resource_manager, converter)
+
+with open('./Python_Learning.pdf', 'rb') as fh:
+
+    for page in PDFPage.get_pages(fh,
+                                  caching=True,
+                                  check_extractable=True):
+        page_interpreter.process_page(page)
+
+    pdf_text = fake_file_handle.getvalue()
+converter.close()
+fake_file_handle.close()金融
+```
+
+
+
+## PDF中表格提取
+
+> ​	很多情况下，我们需要将PDF中的表格提取出来，这时候就需要**tabula-py**这个包，**注意**：这个包需要装Java环境，所以需要下Java，具体可访问网站[tutorial]( https://aegis4048.github.io/parse-pdf-files-while-retaining-structure-with-tabula-py )，查看，里面有很多东西
+
+```python
+import tabula
+
+
+#这里很多东西
+df=tabula.read_pdf(input_path='./2016-year_report.pdf',
+pages='all',lattice=True,	
+pandas_options={'header':None},multiple_tables=True)
+```
+
+- `pages`：这个作用是选择需要搜索的页面，all代表，搜索所有页面
+- `lattice`：这个对于搜索网格线组成表有重要意义
+- `multiple_table`：这个非常重要，这个为`True`说明里面有多个不同表格，会返回一个列表，列表中每一个是一个DataFrame对象
+- `pandas_options`：这个东西用在是传入在创建表格时候一些选项，比如header要不要，列名要不要换如果还需要，自己去看文档吧
+
+
+
