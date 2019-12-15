@@ -102,7 +102,7 @@ fake_file_handle = io.StringIO()
 converter = TextConverter(resource_manager, fake_file_handle)
 page_interpreter = PDFPageInterpreter(resource_manager, converter)
 
-with open('./Python_Learning.pdf', 'rb') as fh:
+with open('./Python_Learning.pdf', 'rb') as fh:	#一定要用rb模式
 
     for page in PDFPage.get_pages(fh,
                                   caching=True,
@@ -111,7 +111,7 @@ with open('./Python_Learning.pdf', 'rb') as fh:
 
     pdf_text = fake_file_handle.getvalue()
 converter.close()
-fake_file_handle.close()金融
+fake_file_handle.close()
 ```
 
 
